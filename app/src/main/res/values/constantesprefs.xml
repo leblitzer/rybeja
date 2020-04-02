@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="elo_nc" translatable="false">1199</integer>
+    <string name="s_elo" translatable="false">Elo</string>
+    <string name="s_number_puzzle" translatable="false">Number puzzle</string>
+    <string name="s_total_time" translatable="false">Total time</string>
+    <string name="s_chess_player" translatable="false">ChessPlayer</string>
+    <string name="s_practice_pos" translatable="false">practicePos</string>
+    <string name="s_practice_elo" translatable="false">practiceElo</string>
+    <string name="s_practice_ticks" translatable="false">practiceTicks</string>
+</resources>
