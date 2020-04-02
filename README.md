@@ -1,9 +1,9 @@
 Rybeja
 =============
 Training Chess Problems
-Mat in 1
-Mat in 2
-Puzzles
+- Mat in 1
+- Mat in 2
+- Puzzles
 
 android-chess
 =============
