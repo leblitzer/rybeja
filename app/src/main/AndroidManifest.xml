@@ -38,15 +38,7 @@
         </activity>
         <!-- FIN YBO 07/02/2020 -->
         <!-- YBO 14/02/2020 -->
-        <activity android:name=".puzzle.matinone">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".start" />
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".puzzle.matintwo">
+        <activity android:name=".puzzle.Mixed">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".start" />

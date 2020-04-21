@@ -134,7 +134,7 @@ public class ChessViewPractice extends UI {
         init();
 
         _butShow = (Button) _parent.findViewById(R.id.ButtonPracticeShow);
-        _butNext = (ImageButton) _parent.findViewById(R.id.ButtonPracticeNext);
+        _butNext = (ImageButton) _parent.findViewById(R.id.ButtonPracticePrev); // YBO 16/04/2020 ButtonPracticeNext
 
         _butNext.setEnabled(false); //YBO 24/01/2020
         _butShow.setEnabled(false); //YBO 24/01/2020
@@ -423,7 +423,7 @@ public class ChessViewPractice extends UI {
                             InputStream is;
                             if (isExtra == null) {
                                 is = _parent.getAssets().open("practice.txt");
-                                //is = _parent.getAssets().open("matinone.txt"); // YBO 14/02/2020
+                                //is = _parent.getAssets().open("Mixed.txt"); // YBO 14/02/2020
                             } else {
                                 is = isExtra;
                             }

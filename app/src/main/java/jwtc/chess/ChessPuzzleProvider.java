@@ -20,7 +20,7 @@ public class ChessPuzzleProvider extends ContentProvider {
 	public static String AUTHORITY = "jwtc.android.chess.puzzle.ChessPuzzleProvider";
     public static Uri CONTENT_URI_PUZZLES = Uri.parse("content://"  + AUTHORITY + "/puzzles");
     public static Uri CONTENT_URI_PRACTICES = Uri.parse("content://"  + AUTHORITY + "/practices");
-    public static Uri CONTENT_URI_MATINONE = Uri.parse("content://"  + AUTHORITY + "/matinone"); // YBO 14/02/2020
+    public static Uri CONTENT_URI_MATINONE = Uri.parse("content://"  + AUTHORITY + "/Mixed"); // YBO 14/02/2020
 
     private static final String TAG = "ChessPuzzleProvider";
 
@@ -32,13 +32,13 @@ public class ChessPuzzleProvider extends ContentProvider {
 
     protected static final int PUZZLES = 1;
     protected static final int PUZZLES_ID = 2;
-    protected static final int PRACTICES = 3;
-    protected static final int PRACTICES_ID = 4;
+	protected static final int PRACTICES = 3;// YBO 03/04/2020 
+	protected static final int PRACTICES_ID = 4;// YBO 03/04/2020 
     protected static final int MATINONE = 5; // YBO 14/02/2020
     protected static final int MATINONE_ID = 6; // YBO 14/02/2020
 
     protected static final int TYPE_PUZZLE = 1;
-    protected static final int TYPE_PRACTICE = 2;
+    protected static final int TYPE_PRACTICE = 2; // YBO 03/04/2020 
     protected static final int TYPE_MATEINONE = 3; // YBO 14/02/2020
 
     protected static UriMatcher sUriMatcher;
@@ -108,6 +108,8 @@ public class ChessPuzzleProvider extends ContentProvider {
             qb.setProjectionMap(sGamesProjectionMap);
             qb.appendWhere(COL_ID + "=" + uri.getPathSegments().get(1));
             break;
+            // YBO 03/04/2020
+            
         case PRACTICES:
             qb.setTables(GAMES_TABLE_NAME);
             qb.setProjectionMap(sGamesProjectionMap);
@@ -119,6 +121,7 @@ public class ChessPuzzleProvider extends ContentProvider {
             qb.setProjectionMap(sGamesProjectionMap);
             qb.appendWhere(COL_ID + "=" + uri.getPathSegments().get(1));
             break;
+            
             
         /* YBO 14/02/2020 */
             case MATINONE:
@@ -161,10 +164,13 @@ public class ChessPuzzleProvider extends ContentProvider {
             return CONTENT_TYPE;
         case PUZZLES_ID:
             return CONTENT_ITEM_TYPE;
+            // YBO 03/04/2020
+            
         case PRACTICES:
             return CONTENT_TYPE;
         case PRACTICES_ID:
             return CONTENT_ITEM_TYPE;
+            
             // YBO 14/02/2020
         case MATINONE:
             return CONTENT_TYPE;
@@ -179,8 +185,9 @@ public class ChessPuzzleProvider extends ContentProvider {
     public Uri insert(Uri uri, ContentValues initialValues) {
         // Validate the requested uri
     	
-    	int iType = sUriMatcher.match(uri); 
-        if (iType != PUZZLES && iType != PRACTICES && iType != MATINONE ) { // YBO 14/02/2020
+    	int iType = sUriMatcher.match(uri);
+        // YBO 03/04/2020 PRATICES en commentaire
+        if (iType != PUZZLES &&  iType != PRACTICES && iType != MATINONE ) { // YBO 14/02/2020
             throw new IllegalArgumentException("Unknown URI " + uri);
         }
 
@@ -195,6 +202,7 @@ public class ChessPuzzleProvider extends ContentProvider {
 
         if(iType == PUZZLES)
         	values.put(COL_TYPE, TYPE_PUZZLE);
+            // YBO 03/04/2020  
         else if(iType == PRACTICES)
         	values.put(COL_TYPE, TYPE_PRACTICE);
         // YB0 14/02/2020
@@ -238,7 +246,7 @@ public class ChessPuzzleProvider extends ContentProvider {
             count = db.delete(GAMES_TABLE_NAME, COL_ID + "=" + puzzleId
                     + (!TextUtils.isEmpty(where) ? " AND (" + where + ')' : ""), whereArgs);
             break;
-
+// YBO 03/04/2020
         case PRACTICES:
             count = db.delete(GAMES_TABLE_NAME, COL_TYPE + "=" + TYPE_PRACTICE
             		+ (!TextUtils.isEmpty(where) ? " AND (" + where + ')' : ""), whereArgs);
@@ -249,6 +257,7 @@ public class ChessPuzzleProvider extends ContentProvider {
             count = db.delete(GAMES_TABLE_NAME, COL_ID + "=" + practiceId
                     + (!TextUtils.isEmpty(where) ? " AND (" + where + ')' : ""), whereArgs);
             break;
+             
 // YBO 14/02/2020
             case MATINONE:
                 count = db.delete(GAMES_TABLE_NAME, COL_TYPE + "=" + TYPE_MATEINONE
@@ -275,7 +284,8 @@ public class ChessPuzzleProvider extends ContentProvider {
         int count;
         switch (sUriMatcher.match(uri)) {
         case PUZZLES_ID:
-        case PRACTICES_ID:
+            // YBO 03/04/2020  
+		case PRACTICES_ID:
         case MATINONE_ID: // YBO 14/02/2020
             String gameId = uri.getPathSegments().get(1);
             count = db.update(GAMES_TABLE_NAME, values, COL_ID + "=" + gameId
@@ -299,7 +309,12 @@ public class ChessPuzzleProvider extends ContentProvider {
         sUriMatcher = new UriMatcher(UriMatcher.NO_MATCH);
         sUriMatcher.addURI(AUTHORITY, "puzzles", PUZZLES);
         sUriMatcher.addURI(AUTHORITY, "puzzles/#", PUZZLES_ID);
+        // YBO 03/04/2020
+        
         sUriMatcher.addURI(AUTHORITY, "practices", PRACTICES);
         sUriMatcher.addURI(AUTHORITY, "practices/#", PRACTICES_ID);
+         
+        sUriMatcher.addURI(AUTHORITY, "practices", MATINONE);
+        sUriMatcher.addURI(AUTHORITY, "practices/#", MATINONE_ID);
     }
 }

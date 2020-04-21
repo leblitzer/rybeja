@@ -13,14 +13,16 @@ import java.io.InputStream;
 import jwtc.android.chess.HtmlActivity;
 import jwtc.android.chess.MyBaseActivity;
 import jwtc.android.chess.R;
+import jwtc.android.chess.parameters.parameters;
 
 // YBO 14/02/2020 : Création
 
-public class matinone extends MyBaseActivity {
+public class Mixed extends MyBaseActivity {
 	
     /** instances for the view and game of chess **/
-	private ChessViewMatInOne _chessView; //YBO 14/02/2020
+	private ChessViewMixed _chessView; // YBO 14/02/2020
     public static final String TAG = "practice";
+    private int _bundleTypePosition; // YBO 20/04/2020
 
     /** Called when the activity is first created. */
     @Override
@@ -31,7 +33,13 @@ public class matinone extends MyBaseActivity {
 
         this.makeActionOverflowMenuShown();
 
-        _chessView = new ChessViewMatInOne(this); //YBO 14/02/2020
+        Intent intent = getIntent();
+        if (intent != null){
+            if (intent.hasExtra(getString(R.string.bundle_type_position))){
+                _bundleTypePosition = intent.getIntExtra(getString(R.string. bundle_type_position), 0);
+            }
+        }
+        _chessView = new ChessViewMixed(this, _bundleTypePosition); //YBO 14/02/2020
     }
 
 
@@ -45,12 +53,21 @@ public class matinone extends MyBaseActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle presses on the action bar items
-        Intent intent;
+        Intent i;
         switch (item.getItemId()) {
+            // YBO 18/04/2020
+            case R.id.action_params:
+                i = new Intent();
+                i.setClass(Mixed.this, parameters.class);
+                i.putExtra(getString(R.string.bundle_type_position), _bundleTypePosition);
+                startActivity(i);
+                return true;
+            // FIN YBO 18/04/2020
             case R.id.action_help:
-                Intent i = new Intent();
-                i.setClass(matinone.this, HtmlActivity.class);
-                i.putExtra(HtmlActivity.HELP_MODE, "help_practice");
+                i = new Intent();
+                i.setClass(Mixed.this, HtmlActivity.class);
+                // YBO 17/04/2020 i.putExtra(HtmlActivity.HELP_MODE, "help_practice");
+                i.putExtra(HtmlActivity.HELP_MODE, "help_mixed"); // YBO 17/04/2020
                 startActivity(i);
                 return true;
             default:

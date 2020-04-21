@@ -3,16 +3,17 @@
 <!-- YBO 14/02/2020 : Mat en 2 -->
 <resources>
 	<string-array name="start_menu">
-		<item>@string/start_play</item>
-        <item>@string/start_ics</item>
-		<item>@string/start_practice</item>
+		<!-- YBO 21/04/2020 <item>@string/start_play</item> -->
+        <!-- YBO 21/04/2020 <item>@string/start_ics</item> -->
+		<!-- YBO 13/04/2020 <item>@string/start_practice</item> -->
         <item>@string/start_mat_1</item><!-- YBO 14/02/2020 -->
-        <item>@string/start_mat_2</item><!-- YBO 14/02/2020 -->
-		<item>@string/start_puzzles</item>
-		<item>@string/start_globalpreferences</item>
-		<item>@string/start_about</item>
-		<item>@string/start_pgn</item>
-		<item>@string/start_parameters</item>  <!-- YBO 07/02/2020 -->
+        <item>@string/start_puzzles_plg</item><!-- YBO 13/04/2020 -->
+        <item>@string/start_puzzles_ctsw</item><!-- YBO 13/04/2020 -->
+        <!-- YBO 13/04/2020 <item>@string/start_puzzles</item> -->
+        <!-- YBO 21/04/2020 <item>@string/start_globalpreferences</item> -->
+        <item>@string/start_about</item>
+        <!-- YBO 21/04/2020 <item>@string/start_pgn</item>-->
+        <item>@string/start_parameters</item>  <!-- YBO 07/02/2020 -->
 	</string-array>
     <string-array name="levels_ply">
         <item>1 ply</item>

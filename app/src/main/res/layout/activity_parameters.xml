@@ -31,4 +31,10 @@
         android:hint="@string/s_total_time"
         android:inputType="textPersonName" />
 
+    <Button
+        android:id="@+id/b_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/s_save" />
+
 </LinearLayout>

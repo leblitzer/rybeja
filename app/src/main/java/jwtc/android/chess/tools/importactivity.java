@@ -311,9 +311,9 @@ public class importactivity extends MyBaseActivity {
 				try {
 					SharedPreferences prefs = getSharedPreferences("ChessPlayer", MODE_PRIVATE);
 					SharedPreferences.Editor editor = prefs.edit();
-					editor.putInt("practicePos", 0);
-					editor.putInt("practiceTicks", 0);
-					editor.putInt("practiceElo", 1199); // YBO 23/01/2020
+					editor.putInt( getString(R.string.s_practice_pos) , 0); // YBO 06/04/2020 "practicePos"
+					editor.putInt(getString(R.string.s_practice_ticks), 0); // YBO 06/04/2020 "practiceTicks"
+					editor.putInt(getString(R.string.s_practice_elo), 1199); // YBO 23/01/2020 //YBO 06/04/20200 "practiceElo" 1199
 					editor.commit();
 					
 					getContentResolver().delete(MyPuzzleProvider.CONTENT_URI_PRACTICES, "1=1", null);

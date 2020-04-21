@@ -520,8 +520,13 @@ try{
 						i = pos + 1;
 					} else if(posDot > 0 && posDot < pos){
 						if(s.length() > posDot+3 && s.substring(posDot, posDot + 3).equals("...")){
+							// YBO 15/04/2020
+							posDot++;
+							token = s.substring(i, posDot);
+							posDot--;
+							// FIN YBO 15/04/2020
 							i = posDot + 3;
-							continue;
+							/* YBO 15/04/2020 continue;*/
 						} else {
 							posDot++;
 							token = s.substring(i, posDot);
@@ -540,7 +545,7 @@ try{
 				matchToken = _patNum.matcher(token);
 				if(matchToken.matches()){
 					tmp = Integer.parseInt(matchToken.group(1));
-					if(tmp == numMove)
+					if(tmp == numMove || true) // YBO 15/04/2020 Ajout de true
 						numMove++;
 					else
 						break;

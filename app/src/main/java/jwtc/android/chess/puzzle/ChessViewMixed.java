@@ -8,6 +8,7 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
+import android.content.res.Resources;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
@@ -38,13 +39,13 @@ import jwtc.chess.board.BoardMembers;
 /**
  * YBO : 14/02/2020 : Création
  */
-public class ChessViewMatInOne extends UI {
+public class ChessViewMixed extends UI {
     private ChessViewBase _view;
     private TextView _tvPracticeMove, _tvPracticeTime, _tvPracticeAvgTime;
     private TextView _tvPracticeElo; // YBO 23/01/2020
     private Button _butShow;
-    private ImageButton _butPause, _butNext;
-    private matinone _parent; //YBO 14/02/2020
+    private ImageButton _butPause, _butPrevious;
+    private Mixed _parent; //YBO 14/02/2020
     private int _numTotal, _iPos;
     private int _elo, _elo_nc; // YBO 23/01/2020
     private Cursor _cursor;
@@ -55,7 +56,18 @@ public class ChessViewMatInOne extends UI {
     private View _viewBoard;
     private ViewSwitcher _switchTurn;
     private ImageView _imgStatus;
-
+    // YBO 02/04/2020
+    private static Uri aPuzzleProvider;
+    //private int aType=0;
+    private String aFileName;
+    private int aTypeFenOrPgn;
+    private boolean aforceFirstMove; // YBO 15/04/2020
+    private int aBundleTypePosition; // YBO 20/04/2020
+    private Resources aResources; // YBO 20/04/2020
+    private String aSMixedPos; // YBO 20/04/2020
+    private String aSMixedElo; // YBO 20/04/2020
+    private String aSMixedTicks; // YBO 20/04/2020
+    // FIN YBO 02/04/2020
     protected ContentResolver _cr;
     protected SharedPreferences _prefs; // YBO 27/01/2020
     protected SharedPreferences.Editor _editor; // YBO 27/01/2020
@@ -69,7 +81,7 @@ public class ChessViewMatInOne extends UI {
             if (msg.what == 1) {
                 _progressDlg.hide();
                 _tvPracticeMove.setText("Installation finished.");
-                _cursor = _parent.managedQuery(MyPuzzleProvider.CONTENT_URI_MATINONE, MyPuzzleProvider.COLUMNS, null, null, ""); // YBO 14/02/2020
+                _cursor = _parent.managedQuery(aPuzzleProvider, MyPuzzleProvider.COLUMNS, null, null, ""); // YBO 14/02/2020
                 _numTotal = _cursor.getCount();
                 firstPlay();
             } else if (msg.what == 2) {
@@ -87,14 +99,43 @@ public class ChessViewMatInOne extends UI {
         /** Gets called on every message that is received */
         // @Override
         public void handleMessage(Message msg) {
+            //_tvPracticeElo.setText("" + _elo); // YBO 21/04/2020
             _tvPracticeTime.setText(formatTime(msg.getData().getInt("ticks")));
+            int i = 0;
         }
 
     };
 
-    public ChessViewMatInOne(final Activity activity) {
+    //YBO 03/04/2020 : Ajout de typeProb à la signature
+    public ChessViewMixed(final Activity activity, int bundleTypePosition) {
         super();
-        _parent = (matinone) activity; //YBO 14/02/2020
+        aforceFirstMove = false; // YBO 15/04/2020
+        aBundleTypePosition = bundleTypePosition;
+        _parent = (Mixed) activity;
+        aResources = _parent.getResources();
+        aSMixedPos = aResources.getString(R.string.s_mixed_pos) + aBundleTypePosition;
+        aSMixedElo = aResources.getString(R.string.s_mixed_elo) + aBundleTypePosition;
+        aSMixedTicks =  aResources.getString(R.string.s_mixed_ticks) + aBundleTypePosition;
+        switch (bundleTypePosition) {
+            case R.string.start_mat_1:
+                aPuzzleProvider = MyPuzzleProvider.CONTENT_URI_MATINONE;
+                aFileName = "matinone.txt";
+                aTypeFenOrPgn = R.integer.type_fen;
+                break;
+            case R.string.start_puzzles_plg:
+                aPuzzleProvider = MyPuzzleProvider.CONTENT_URI_PRACTICES;
+                aFileName = "puzzle_plg.pgn";
+                aTypeFenOrPgn = R.integer.type_pgn;
+                break;
+            case R.string.start_puzzles_ctsw:
+                _parent = (Mixed) activity;
+                aPuzzleProvider = MyPuzzleProvider.CONTENT_URI_PUZZLES;
+                aFileName = "puzzles_cts_white.pgn";
+                aTypeFenOrPgn = R.integer.type_pgn;
+                aforceFirstMove = true; // YBO 15/04/2020
+        }
+
+
         _view = new ChessViewBase(activity);
 
         _cr = activity.getContentResolver();
@@ -116,8 +157,8 @@ public class ChessViewMatInOne extends UI {
         _num = 1;
 
         _iPos = 0;
-        _elo = 0 ; // YBO 23/01/2020
-        _elo_nc =_parent.getResources().getInteger(R.integer.elo_nc); // YBO 24/01/2020
+        _elo = 0; // YBO 23/01/2020
+        _elo_nc = _parent.getResources().getInteger(R.integer.elo_nc); // YBO 24/01/2020
         _isPlaying = false;
 
         OnClickListener ocl = new OnClickListener() {
@@ -138,9 +179,10 @@ public class ChessViewMatInOne extends UI {
         init();
 
         _butShow = (Button) _parent.findViewById(R.id.ButtonPracticeShow);
-        _butNext = (ImageButton) _parent.findViewById(R.id.ButtonPracticeNext);
+        // YBO 16/04/2020 _butPrevious = (ImageButton) _parent.findViewById(R.id.ButtonPracticeNext);
+        _butPrevious = (ImageButton) _parent.findViewById(R.id.ButtonPracticePrev); // YBO 16/04/2020
 
-        _butNext.setEnabled(false); //YBO 24/01/2020
+        _butPrevious.setEnabled(false); //YBO 24/01/2020
         _butShow.setEnabled(false); //YBO 24/01/2020
 
         _butShow.setOnClickListener(new OnClickListener() {
@@ -150,27 +192,32 @@ public class ChessViewMatInOne extends UI {
                 updateState();
                 if (_arrPGN.size() == _jni.getNumBoard() - 1) {
                     //YBO 24/01/2020 _butNext.setEnabled(true);
-                    _butNext.setEnabled(false); //YBO 24/01/2020
+                    _butPrevious.setEnabled(false); //YBO 24/01/2020
                     _butShow.setEnabled(false);
                 }
             }
         });
 
-        _butNext.setOnClickListener(new OnClickListener() {
+        _butPrevious.setOnClickListener(new OnClickListener() {
             public void onClick(View arg0) {
-                //YBO 27/01/2020 _butNext.setEnabled(false);
-                //YBO 24/01/2020 _butShow.setEnabled(true);
-                _butShow.setEnabled(false);
-                play(_iPos--, _elo--); //YBO 27/01/2020
-                /* _tvPracticeElo.setText("" + _elo); //YBO 27/01/2020
+                if(_iPos > 1) {
+                    //YBO 27/01/2020 _butNext.setEnabled(false);
+                    //YBO 24/01/2020 _butShow.setEnabled(true);
+                    _butShow.setEnabled(false);
+                    play(_iPos--, _elo--); //YBO 27/01/2020
+                    _tvPracticeElo.setText("" + _elo); //YBO 27/01/2020
+                    /*
                 _switchTurn.setDisplayedChild(1); //YBO 27/01/2020 pour forcer l'aff de _tvPracticeTime
                 _switchTurn.setDisplayedChild(0); //YBO 27/01/2020 pour forcer l'aff de _tvPracticeTime
                 _tvPracticeElo.setText("" + _elo); //YBO 27/01/2020 */
+                    //if(aforceFirstMove) {doMove();} // YBO 16/04/2020
 
+
+                }
 
             }
         });
-        _butNext.setEnabled(true); //YBO 27/01/2020
+        _butPrevious.setEnabled(true); //YBO 27/01/2020
         _butPause = (ImageButton) _parent.findViewById(R.id.ButtonPracticePause);
         _butPause.setOnClickListener(new OnClickListener() {
             public void onClick(View arg0) {
@@ -184,6 +231,7 @@ public class ChessViewMatInOne extends UI {
                 }
             }
         });
+
 
     }
 
@@ -241,6 +289,8 @@ public class ChessViewMatInOne extends UI {
 
             updateState();
 
+
+
             if (_arrPGN.size() == _jni.getNumBoard() - 1) {
                 //play();
                 //play(); // YBO 23/01/2020
@@ -249,9 +299,10 @@ public class ChessViewMatInOne extends UI {
                 _isPlaying = false;
                 //YBO 24/01/2020 _butNext.setEnabled(true);
                 _butShow.setEnabled(false);
-                play(); // YBO 27/01/2020
+                play(_iPos++, _elo++); // YBO 27/01/2020
                 saveEditor(_editor); // YBO 27/01/2020
                 _editor.commit(); // YBO 27/01/2020
+                _tvPracticeElo.setText("" + _elo); //YBO 21/04/2020
             } else {
                 jumptoMove(_jni.getNumBoard());
                 updateState();
@@ -272,12 +323,14 @@ public class ChessViewMatInOne extends UI {
     }
 
     @Override
-    public void play(){ play(_iPos++, _elo++); } // YBO 27/01/2020
+    public void play() {
+        play(_iPos++, _elo);
+
+    } // YBO 27/01/2020
+
     public void play(int pos, int _elo) {
         m_iFrom = -1;
-
         String sPGN;
-
         _isPlaying = true;
         // YBO 27/01/2020 _iPos++;
         //_elo++; // YBO 23/01/2020
@@ -310,7 +363,7 @@ public class ChessViewMatInOne extends UI {
                 turn == BoardConstants.WHITE && _view.getFlippedBoard()) {
             // YBO 23/01/2020 _view.flipBoard();
         }
-        _tvPracticeMove.setText("# " + _iPos + "/" + _numTotal );
+        _tvPracticeMove.setText("# " + _iPos + "/" + _numTotal);
 
         if (turn == BoardConstants.BLACK) {
             _switchTurn.setDisplayedChild(1); //YBO 27/01/2020 pour forcer l'aff de _tvPracticeTime
@@ -329,6 +382,7 @@ public class ChessViewMatInOne extends UI {
 
 
         updateState();
+        if(aforceFirstMove) {doMove();} // YBO 16/04/2020
     }
 
 
@@ -391,28 +445,43 @@ public class ChessViewMatInOne extends UI {
     }
 
     // YBO 27/01/2020
-    private void saveEditor(SharedPreferences.Editor editor){
+    private void saveEditor(SharedPreferences.Editor editor) {
         if (_iPos > 0) {
-            editor.putInt("practicePos", _iPos - 1);
+            editor.putInt(aSMixedPos, _iPos - 1);
         }
-        editor.putInt("practiceElo", _elo); // YBO 23/01/2020
-        editor.putInt("practiceTicks", _ticks);
+        editor.putInt(aSMixedElo, _elo); // YBO 23/01/2020
+        editor.putInt(aSMixedTicks, _ticks);
     }
 
+    /*********************************************************************************************/
+    private void setEditor(final SharedPreferences prefs) {
+        _ticks =prefs.getInt(aSMixedTicks,0);
+        _iPos =prefs.getInt(aSMixedPos,0); // YBO 06/04/2020 s_practice_pos
+        _elo =prefs.getInt(aSMixedElo,_elo_nc); // YBO 23/01/2020
+        int i = 0;
+    }
+    /*********************************************************************************************/
+// YBO 03/04/2020
     public void OnResume(final SharedPreferences prefs, final InputStream isExtra) {
+        //setEditor(prefs);
+        switch(aTypeFenOrPgn) {
+            case (R.integer.type_fen): OnResumePractice(prefs , isExtra); break;
+            case (R.integer.type_pgn): OnResumePuzzle(prefs /*, isExtra*/); break;
+        }
+    }
+    /*********************************************************************************************/
+// YBO 03/04/2020
+    private void OnResumePractice(final SharedPreferences prefs, final InputStream isExtra) {
         super.OnResume();
 
-        ChessImageView._colorScheme = prefs.getInt("ColorScheme", 0);
+        ChessImageView._colorScheme = prefs.getInt("ColorScheme", 2);
 
         _view.setFlippedBoard(false);
         _isPlaying = true;
-        _ticks = prefs.getInt("practiceTicks", 0);
         _playTicks = 0;
+        setEditor(prefs); // YBO 05/04/2020
 
-        _iPos = prefs.getInt("practicePos", 0);
-        _elo = prefs.getInt("practiceElo", _elo_nc); // YBO 23/01/2020
-
-        _cursor = _parent.managedQuery(MyPuzzleProvider.CONTENT_URI_MATINONE, MyPuzzleProvider.COLUMNS, null, null, ""); // YBO 14/02/2020
+        _cursor = _parent.managedQuery(aPuzzleProvider, MyPuzzleProvider.COLUMNS, null, null, ""); // YBO 14/02/2020
 
         if (_cursor != null) {
             _numTotal = _cursor.getCount();
@@ -426,7 +495,7 @@ public class ChessViewMatInOne extends UI {
                         try {
                             InputStream is;
                             if (isExtra == null) {
-                                 is = _parent.getAssets().open("matinone.txt"); // YBO 14/02/2020
+                                 is = _parent.getAssets().open(aFileName); // YBO 14/02/2020
                                 //is = _parent.getAssets().open("practice.txt");
                             } else {
                                 is = isExtra;
@@ -440,7 +509,7 @@ public class ChessViewMatInOne extends UI {
                             is.close();
                             ContentValues values;
 
-                            Uri uri = MyPuzzleProvider.CONTENT_URI_MATINONE; // YBO 14/02/2020
+                            Uri uri = aPuzzleProvider; // YBO 14/02/2020
 
                             String arr[] = sb.toString().split("\n");
                             String arr2[];
@@ -498,6 +567,120 @@ public class ChessViewMatInOne extends UI {
 
     }
 
+/*********************************************************************************************/
+// YBO 03/04/2020
+private void OnResumePuzzle(final SharedPreferences prefs) {
+    super.OnResume();
+
+    ChessImageView._colorScheme = prefs.getInt("ColorScheme", 2);
+
+    _view.setFlippedBoard(prefs.getBoolean("flippedBoard", false));
+
+    _iPos = prefs.getInt("puzzlePos", 0);
+
+    _numTotal = getNumPuzzles(); // YBO 03/04/2020
+    setEditor(prefs); // YBO 03/04/2020
+
+    if (_num == 0) {
+
+        _num = 500; // first puzzle set has fixed amount
+        _progressDlg = ProgressDialog.show(_parent, _parent.getString(R.string.title_installing), _parent.getString(R.string.msg_wait), false, false);
+
+        //if(iTmp > 0)
+        //	_cr.delete(MyPuzzleProvider.CONTENT_URI_PUZZLES, "1=1", null);
+
+        _thread = new Thread(new Runnable() {
+            public void run() {
+
+                try {
+                    InputStream is = _parent.getAssets().open(aFileName); // YBO 03/04/2020
+
+                    StringBuffer sb = new StringBuffer();
+                    String s = "", data;
+                    int pos1 = 0, pos2 = 0, len;
+                    byte[] buffer = new byte[2048];
+
+                    while ((len = is.read(buffer, 0, buffer.length)) != -1) {
+                        data = new String(buffer, 0, len);
+                        sb.append(data);
+                        pos1 = sb.indexOf("[Event \"");
+                        while (pos1 >= 0) {
+                            pos2 = sb.indexOf("[Event \"", pos1 + 10);
+                            if (pos2 == -1)
+                                break;
+                            s = sb.substring(pos1, pos2);
+
+                            processPGN(s);
+
+                            sb.delete(0, pos2);
+
+                            pos1 = sb.indexOf("[Event \"");
+                        }
+                        //break;
+
+                        //Log.i("run", "left: " + sb);
+                        //break;
+                    }
+                    processPGN(sb.toString());
+
+                    Log.i("run", "Count " + _cnt);
+
+                    Message msg = new Message();
+                    msg.what = 1;
+                    m_threadHandler.sendMessage(msg);
+
+                    is.close();
+
+                } catch (Exception ex) {
+                    Log.e("Install", ex.toString());
+                }
+            }
+        });
+        _thread.start();
+
+        return;
+    }
+
+    //YBO 03/04/2020 play();
+    firstPlay();
+
+
+}
+/*********************************************************************************************/
+// YBO 03/04/2020
+public int getNumPuzzles() {
+
+    //_cursor = _parent.managedQuery(MyPuzzleProvider.CONTENT_URI_PUZZLES, MyPuzzleProvider.COLUMNS, null, null, "");
+    _cursor = _parent.managedQuery(aPuzzleProvider, MyPuzzleProvider.COLUMNS, null, null, "");
+
+    if (_cursor != null) {
+        _num = _cursor.getCount();
+    } else {
+        _num = 0;
+    }
+    return _num; // YBO 03/04/2020
+}
+/*********************************************************************************************/
+// YBO 03/04/2020
+private void processPGN(String s) {
+
+    if (_cnt % 100 == 0) {
+        Message msg = new Message();
+        msg.what = 2;
+        m_threadHandler.sendMessage(msg);
+
+    }
+
+    ContentValues values;
+    values = new ContentValues();
+    values.put("PGN", s);
+    // YBO 12/04/2020 _cr.insert(MyPuzzleProvider.CONTENT_URI_PUZZLES, values);
+    _cr.insert(aPuzzleProvider, values); // YBO 12/04/2020
+
+    _cnt++;
+}
+/*********************************************************************************************/
+
     public void firstPlay() {
         scheduleTimer();
         play();
@@ -522,8 +705,15 @@ public class ChessViewMatInOne extends UI {
                 bun.putInt("ticks", _playTicks);
                 msg.setData(bun);
                 m_timerHandler.sendMessage(msg);
-
             }
         }, 1000, 1000);
     }
+    /*********************************************************************************************/
+    // YBO 16/04/2020
+    private void doMove() {
+        jumptoMove(_jni.getNumBoard());
+        updateState();
+    }
+    /*********************************************************************************************/
+
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?><!-- YBO 07/02/2020 -->
 <resources>
 
-    <string name="app_name">Chess</string>
+    <string name="app_name">Rybeja Chess</string>
     <string name="app_name_play">Play</string>
     <string name="app_name_playonline">Play online</string>
     <string name="app_name_setup">Setup</string>
@@ -18,6 +18,8 @@
     <string name="start_practice">Practice</string>
     <string name="start_mat_1">Mat in 1</string><!-- YBO 14/02/2020 -->
     <string name="start_mat_2">Mat in 2</string><!-- YBO 14/02/2020 -->
+    <string name="start_puzzles_plg">Puzzle PLG</string><!-- YBO 13/04/2020 -->
+    <string name="start_puzzles_ctsw">Puzzle CTSW</string><!-- YBO 13/04/2020 -->
     <string name="start_puzzles">Puzzles</string>
     <string name="start_about">About</string>
     <string name="start_pgn">Advanced</string>
@@ -138,6 +140,7 @@
     <string name="title_installing">Installing</string>
     <string name="title_puzzle_jump">Jump to puzzle number</string>
 
+    <string name="menu_params">Parameters</string> <!-- YBO 18/04/2020 -->
     <string name="menu_help">Help</string>
     <string name="menu_new">New Game</string>
     <string name="menu_clear">Clear</string>

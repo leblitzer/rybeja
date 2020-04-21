@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <integer name="elo_nc" translatable="false">1199</integer>
+    <integer name="elo_nc" >1199</integer>
     <string name="s_elo" translatable="false">Elo</string>
     <string name="s_number_puzzle" translatable="false">Number puzzle</string>
     <string name="s_total_time" translatable="false">Total time</string>
@@ -8,4 +8,16 @@
     <string name="s_practice_pos" translatable="false">practicePos</string>
     <string name="s_practice_elo" translatable="false">practiceElo</string>
     <string name="s_practice_ticks" translatable="false">practiceTicks</string>
+    <string name="s_mixed_pos" translatable="false">practicePos</string><!-- YBO 20/04/2020 -->
+    <string name="s_mixed_elo" translatable="false">practiceElo</string><!-- YBO 20/04/2020 -->
+    <string name="s_mixed_ticks" translatable="false">practiceTicks</string><!-- YBO 20/04/2020 -->
+    <string name="s_save" translate="false">Save</string>
+
+    <string name="bundle_type_position">bundle_type_position</string>
+
+    <integer name="type_fen">0</integer>
+    <integer name="type_pgn">1</integer>
+
+
+
 </resources>

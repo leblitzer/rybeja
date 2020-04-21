@@ -17,15 +17,13 @@ import java.util.Locale;
 
 import jwtc.android.chess.ics.ICSClient;
 import jwtc.android.chess.parameters.parameters;
-import jwtc.android.chess.puzzle.matinone;
-import jwtc.android.chess.puzzle.matintwo;
-import jwtc.android.chess.puzzle.practice;
+import jwtc.android.chess.puzzle.Mixed;
 import jwtc.android.chess.puzzle.puzzle;
 import jwtc.android.chess.tools.pgntool;
 
 /**
  * YBO : 07/02/2020 : Ajout de parameters
- * YBO : 14/02/2020 : Ajout de mat en 2
+ * YBO : 14/02/2020 : Ajout de mat en 2 : start_menu pour le menu
  */
 
 public class start extends Activity {
@@ -77,16 +75,27 @@ public class start extends Activity {
                         i.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
                         startActivity(i);
                     } else if (_ssActivity.equals(getString(R.string.start_practice))) {
-                        i.setClass(start.this, practice.class);
+                        // YBO 03/04/2020 i.setClass(start.this, practice.class);
+                        i.setClass(start.this, Mixed.class);
+                        i.putExtra(getString(R.string.bundle_type_position), R.string.start_practice);
                         i.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
                         startActivity(i);
                         // YBO 14/02/2020
                     } else if (_ssActivity.equals(getString(R.string.start_mat_1))) {
-                        i.setClass(start.this, matinone.class);
+                        i.setClass(start.this, Mixed.class);
+                        i.putExtra(getString(R.string.bundle_type_position), R.string.start_mat_1);
                         i.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
                         startActivity(i);
-                    } else if (_ssActivity.equals(getString(R.string.start_mat_2))) {
-                        i.setClass(start.this, matintwo.class);
+                        // YBO 13/04/2020 mat2 -> Puzzle PLG
+                    } else if (_ssActivity.equals(getString(R.string.start_puzzles_plg))) {
+                        i.setClass(start.this, Mixed.class);
+                        i.putExtra(getString(R.string.bundle_type_position), R.string.start_puzzles_plg);
+                        i.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+                        startActivity(i);
+                        // YBO 13/04/2020 Puzzle ctsw
+                    } else if (_ssActivity.equals(getString(R.string.start_puzzles_ctsw))) {
+                        i.setClass(start.this, Mixed.class);
+                        i.putExtra(getString(R.string.bundle_type_position), R.string.start_puzzles_ctsw);
                         i.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
                         startActivity(i);
                         // FIN YBO 14/02/2020
@@ -109,6 +118,7 @@ public class start extends Activity {
                     } else if (_ssActivity.equals(getString(R.string.start_parameters))) {
                         i.setClass(start.this, parameters.class);
                         i.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+                        i.putExtra(getString(R.string.bundle_type_position), R.string.start_mat_1);
                         startActivity(i);
                         // FIN YBO 07/02/2020
                     } else if (_ssActivity.equals(getString(R.string.start_globalpreferences))) {
