@@ -20,27 +20,32 @@
 			android:layout_toRightOf="@id/includeboard" android:padding="2dip"
 			android:layout_marginRight="2dip">
 			<TableRow>
-				<jwtc.android.chess.CapturedImageView  android:id="@+id/selQueen"
+				<rybeja.android.chess.CapturedImageView
+                    android:id="@+id/selQueen"
 					android:layout_width="40dip" android:layout_height="40dip"
 					android:layout_margin="2dip"/>
 			</TableRow>
 			<TableRow>
-				<jwtc.android.chess.CapturedImageView  android:id="@+id/selRook"
+				<rybeja.android.chess.CapturedImageView
+                    android:id="@+id/selRook"
 					android:layout_width="40dip" android:layout_height="40dip"
 					android:layout_margin="2dip"/>
 			</TableRow>
 			<TableRow>
-				<jwtc.android.chess.CapturedImageView  android:id="@+id/selBishop"
+				<rybeja.android.chess.CapturedImageView
+                    android:id="@+id/selBishop"
 					android:layout_width="40dip" android:layout_height="40dip"
 					android:layout_margin="2dip"/>
 			</TableRow>
 			<TableRow>
-				<jwtc.android.chess.CapturedImageView  android:id="@+id/selKnight"
+				<rybeja.android.chess.CapturedImageView
+                    android:id="@+id/selKnight"
 					android:layout_width="40dip" android:layout_height="40dip"
 					android:layout_margin="2dip"/>
 			</TableRow>
 			<TableRow>
-				<jwtc.android.chess.CapturedImageView  android:id="@+id/selPawn"
+				<rybeja.android.chess.CapturedImageView
+                    android:id="@+id/selPawn"
 					android:layout_width="40dip" android:layout_height="40dip"
 					android:layout_margin="2dip"/>
 			</TableRow>

@@ -11,7 +11,8 @@ android {
     buildToolsVersion '28.0.3'
     //buildToolsVersion '29.0.2'  //YBO
     defaultConfig {
-        applicationId "jwtc.android.chess"
+        // YBO 08/05/2020 applicationId "jwtc.android.chess"
+        applicationId "rybeja.android.chess"  // YBO 08/05/2020
         minSdkVersion 14
         targetSdkVersion 28
         //targetSdkVersion 29  //YBO

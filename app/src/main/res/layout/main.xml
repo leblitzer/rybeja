@@ -145,17 +145,27 @@
 			>
 				<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
 
-					<jwtc.android.chess.CapturedImageView android:id="@+id/ImageCapturedBlackPawn" style="@style/CaptureImageStyle"  />
-					<jwtc.android.chess.CapturedImageView android:id="@+id/ImageCapturedBlackKnight" style="@style/CaptureImageStyle" />
-					<jwtc.android.chess.CapturedImageView android:id="@+id/ImageCapturedBlackBishop" style="@style/CaptureImageStyle" />
-					<jwtc.android.chess.CapturedImageView android:id="@+id/ImageCapturedBlackRook" style="@style/CaptureImageStyle" />
-					<jwtc.android.chess.CapturedImageView android:id="@+id/ImageCapturedBlackQueen" style="@style/CaptureImageStyle" />
+					<rybeja.android.chess.CapturedImageView
+                        android:id="@+id/ImageCapturedBlackPawn" style="@style/CaptureImageStyle"  />
+					<rybeja.android.chess.CapturedImageView
+                        android:id="@+id/ImageCapturedBlackKnight" style="@style/CaptureImageStyle" />
+					<rybeja.android.chess.CapturedImageView
+                        android:id="@+id/ImageCapturedBlackBishop" style="@style/CaptureImageStyle" />
+					<rybeja.android.chess.CapturedImageView
+                        android:id="@+id/ImageCapturedBlackRook" style="@style/CaptureImageStyle" />
+					<rybeja.android.chess.CapturedImageView
+                        android:id="@+id/ImageCapturedBlackQueen" style="@style/CaptureImageStyle" />
 					 
-                    <jwtc.android.chess.CapturedImageView android:id="@+id/ImageCapturedWhitePawn" style="@style/CaptureImageStyle" />
-					<jwtc.android.chess.CapturedImageView android:id="@+id/ImageCapturedWhiteKnight" style="@style/CaptureImageStyle" />
-					<jwtc.android.chess.CapturedImageView android:id="@+id/ImageCapturedWhiteBishop" style="@style/CaptureImageStyle" />
-					<jwtc.android.chess.CapturedImageView android:id="@+id/ImageCapturedWhiteRook" style="@style/CaptureImageStyle" />
-					<jwtc.android.chess.CapturedImageView android:id="@+id/ImageCapturedWhiteQueen" style="@style/CaptureImageStyle" />
+                    <rybeja.android.chess.CapturedImageView
+                        android:id="@+id/ImageCapturedWhitePawn" style="@style/CaptureImageStyle" />
+					<rybeja.android.chess.CapturedImageView
+                        android:id="@+id/ImageCapturedWhiteKnight" style="@style/CaptureImageStyle" />
+					<rybeja.android.chess.CapturedImageView
+                        android:id="@+id/ImageCapturedWhiteBishop" style="@style/CaptureImageStyle" />
+					<rybeja.android.chess.CapturedImageView
+                        android:id="@+id/ImageCapturedWhiteRook" style="@style/CaptureImageStyle" />
+					<rybeja.android.chess.CapturedImageView
+                        android:id="@+id/ImageCapturedWhiteQueen" style="@style/CaptureImageStyle" />
 				</TableRow>
 				<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
 						 <TextView android:id="@+id/TextViewCapturedBlackPawn"

@@ -33,19 +33,24 @@
 		android:gravity="center"
 		android:layout_below="@id/includeboard" android:padding="4dip"
 		>
-			<jwtc.android.chess.CapturedImageView  android:id="@+id/selQueen"
+			<rybeja.android.chess.CapturedImageView
+                android:id="@+id/selQueen"
 					android:layout_width="40dip" android:layout_height="40dip"
 					android:layout_marginRight="2dip"/>
-			<jwtc.android.chess.CapturedImageView  android:id="@+id/selRook"
+			<rybeja.android.chess.CapturedImageView
+                android:id="@+id/selRook"
 					android:layout_width="40dip" android:layout_height="40dip"
 					android:layout_marginRight="2dip"/>
-			<jwtc.android.chess.CapturedImageView  android:id="@+id/selBishop"
+			<rybeja.android.chess.CapturedImageView
+                android:id="@+id/selBishop"
 					android:layout_width="40dip" android:layout_height="40dip"
 					android:layout_marginRight="2dip"/>
-			<jwtc.android.chess.CapturedImageView  android:id="@+id/selKnight"
+			<rybeja.android.chess.CapturedImageView
+                android:id="@+id/selKnight"
 					android:layout_width="40dip" android:layout_height="40dip"
 					android:layout_marginRight="2dip"/>
-			<jwtc.android.chess.CapturedImageView  android:id="@+id/selPawn"
+			<rybeja.android.chess.CapturedImageView
+                android:id="@+id/selPawn"
 				android:layout_width="40dip" android:layout_height="40dip"
 				android:layout_marginRight="2dip"/>
 			<ImageButton android:id="@+id/delPiece" 

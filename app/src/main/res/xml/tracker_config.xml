@@ -8,7 +8,7 @@
 
     <!--
     <screenName name="jwtc.android.chess.start">Start Screen</screenName>
-    <screenName name="jwtc.android.chess.main">Play</screenName>
-    <screenName name="jwtc.android.chess.ics.ICSClient">Play Online</screenName>
+    <screenName name="main">Play</screenName>
+    <screenName name="ICSClient">Play Online</screenName>
     -->
 </resources>

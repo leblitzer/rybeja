@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".parameters.parameters">
+    tools:context="rybeja.android.chess.parameters.parameters">
 
     <EditText
         android:id="@+id/et_number_puzzle"
