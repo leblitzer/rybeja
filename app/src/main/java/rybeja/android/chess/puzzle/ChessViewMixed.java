@@ -119,20 +119,30 @@ public class ChessViewMixed extends UI {
         switch (bundleTypePosition) {
             case R.string.start_mat_1:
                 aPuzzleProvider = MyPuzzleProvider.CONTENT_URI_MATINONE;
-                aFileName = "matinone.txt";
+                aFileName = "fic01_matinone.txt";
                 aTypeFenOrPgn = R.integer.type_fen;
                 break;
-            case R.string.start_puzzles_plg:
+            case R.string.start_puzzles_plg_mat_in_2:  //YBO 29/06/2020
                 aPuzzleProvider = MyPuzzleProvider.CONTENT_URI_PRACTICES;
-                aFileName = "puzzle_plg.pgn";
+                aFileName = "fic02_puzzle_plg_mat_en_2.pgn";
+                aTypeFenOrPgn = R.integer.type_pgn;
+                break;
+            case R.string.start_puzzles_plg_fin:  //YBO 29/06/2020
+                aPuzzleProvider = MyPuzzleProvider.CONTENT_URI_PLGFIN;
+                aFileName = "fic03_puzzle_plg_fin.pgn";
                 aTypeFenOrPgn = R.integer.type_pgn;
                 break;
             case R.string.start_puzzles_ctsw:
                 _parent = (Mixed) activity;
                 aPuzzleProvider = MyPuzzleProvider.CONTENT_URI_PUZZLES;
-                aFileName = "puzzles_cts_white.pgn";
+                aFileName = "fic04_puzzles_cts_white.pgn";
                 aTypeFenOrPgn = R.integer.type_pgn;
                 aforceFirstMove = true; // YBO 15/04/2020
+                break;
+            case R.string.start_puzzles_brd_mat_in_3:  //YBO 29/06/2020
+                aPuzzleProvider = MyPuzzleProvider.CONTENT_URI_BRDMATIN3;
+                aFileName = "fic05_puzzle_brd_mat_en_3.pgn";
+                aTypeFenOrPgn = R.integer.type_pgn;
         }
 
 
