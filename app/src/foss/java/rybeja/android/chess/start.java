@@ -21,13 +21,17 @@ import rybeja.android.chess.ics.ICSClient;
 import rybeja.android.chess.main;
 import rybeja.android.chess.parameters.parameters;
 import rybeja.android.chess.puzzle.Mixed;
+import rybeja.android.chess.puzzle.Vitesse;
 import rybeja.android.chess.puzzle.puzzle;
 import rybeja.android.chess.tools.pgntool;
+
+// A Dupliquer dans D:\you\Prog\ProgMy\Android-Workspace\Younes\17EntrainementVitesse3\app\src\playStore\java\jwtc\android\chess\start.java
 
 /**
  * YBO : 07/02/2020 : Ajout de parameters
  * YBO : 14/02/2020 : Ajout de mat en 2 : start_menu pour le menu
  * YBO : 29/06/2020 : Ajout des BRD
+ * YBO : 01/07/2020 : Ajout de Vitesse et modifier R.array.start_menu
  */
 
 public class start extends Activity {
@@ -115,6 +119,11 @@ public class start extends Activity {
                         i.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
                         startActivity(i);
                         // FIN YBO 14/02/2020
+                    } else if (_ssActivity.equals(getString(R.string.start_vitesse))) { // YBO 01/07/2020
+                        i.setClass(start.this, Vitesse.class);
+                        i.putExtra(getString(R.string.bundle_type_position), R.string.start_vitesse);
+                        i.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+                        startActivity(i);
                     } else if (_ssActivity.equals(getString(R.string.start_puzzles))) {
                         i.setClass(start.this, puzzle.class);
                         i.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);

@@ -17,6 +17,7 @@ public class MyPuzzleProvider extends ChessPuzzleProvider{
 		CONTENT_URI_MATINONE = Uri.parse("content://"  + AUTHORITY + "/Mixed"); // YBO 14/02/2020
 		CONTENT_URI_PLGFIN = Uri.parse("content://"  + AUTHORITY + "/plgfin"); // YBO 29/06/2020
 		CONTENT_URI_BRDMATIN3 = Uri.parse("content://"  + AUTHORITY + "/brdmatin3"); // YBO YBO 29/06/2020
+		CONTENT_URI_VITESSE = Uri.parse("content://"  + AUTHORITY + "/vitesse"); // YBO YBO 01/07/2020
 
 		sUriMatcher = new UriMatcher(UriMatcher.NO_MATCH);
 
@@ -32,6 +33,7 @@ public class MyPuzzleProvider extends ChessPuzzleProvider{
 		sUriMatcher.addURI(AUTHORITY, "plgfin/#", PLGFIN_ID);
 		sUriMatcher.addURI(AUTHORITY, "brdmatin3", BRDMATIN3);
 		sUriMatcher.addURI(AUTHORITY, "brdmatin3/#",BRDMATIN3_ID);
-
+		sUriMatcher.addURI(AUTHORITY, "vitesse", VITESSE);
+		sUriMatcher.addURI(AUTHORITY, "vitesse/#",VITESSE_ID);
 	}
 }

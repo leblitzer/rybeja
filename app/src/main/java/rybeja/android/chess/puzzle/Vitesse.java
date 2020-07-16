@@ -15,13 +15,13 @@ import rybeja.android.chess.MyBaseActivity;
 import rybeja.android.chess.R;
 import rybeja.android.chess.parameters.parameters;
 
-// YBO 14/02/2020 : Création (vient de practice)
+// YBO 01/07/2020 : Création (vient de Mixed)
 
-public class Mixed extends MyBaseActivity {
+public class Vitesse extends MyBaseActivity {
 	
     /** instances for the view and game of chess **/
-	private ChessViewMixed _chessView; // YBO 14/02/2020
-    public static final String TAG = "Mixed";
+	private ChessViewVitesse _chessView; // YBO 14/02/2020
+    public static final String TAG = "Vitesse";
     private int _bundleTypePosition; // YBO 20/04/2020
 
     /** Called when the activity is first created. */
@@ -39,7 +39,7 @@ public class Mixed extends MyBaseActivity {
                 _bundleTypePosition = intent.getIntExtra(getString(R.string. bundle_type_position), 0);
             }
         }
-        _chessView = new ChessViewMixed(this, _bundleTypePosition); //YBO 14/02/2020
+        _chessView = new ChessViewVitesse(this, _bundleTypePosition); //YBO 14/02/2020
     }
 
 
@@ -58,14 +58,14 @@ public class Mixed extends MyBaseActivity {
             // YBO 18/04/2020
             case R.id.action_params:
                 i = new Intent();
-                i.setClass(Mixed.this, parameters.class);
+                i.setClass(Vitesse.this, parameters.class);
                 i.putExtra(getString(R.string.bundle_type_position), _bundleTypePosition);
                 startActivity(i);
                 return true;
             // FIN YBO 18/04/2020
             case R.id.action_help:
                 i = new Intent();
-                i.setClass(Mixed.this, HtmlActivity.class);
+                i.setClass(Vitesse.this, HtmlActivity.class);
                 // YBO 17/04/2020 i.putExtra(HtmlActivity.HELP_MODE, "help_practice");
                 i.putExtra(HtmlActivity.HELP_MODE, "help_mixed"); // YBO 17/04/2020
                 startActivity(i);

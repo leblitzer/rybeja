@@ -22,6 +22,7 @@
     <string name="start_puzzles_plg_fin">Puzzle PLG : end</string><!-- YBO 29/06/2020 -->
     <string name="start_puzzles_ctsw">Puzzle CTSW</string><!-- YBO 13/04/2020 -->
     <string name="start_puzzles_brd_mat_in_3">Puzzle BRD : Mat in 3</string><!-- YBO 29/06/2020 -->
+    <string name="start_vitesse">Vitesse</string><!-- YBO 01/07/2020 -->
     <string name="start_puzzles">Puzzles</string>
     <string name="start_about">About</string>
     <string name="start_pgn">Advanced</string>

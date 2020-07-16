@@ -15,8 +15,11 @@ import android.net.Uri;
 import android.text.TextUtils;
 import android.util.Log;
 
+import rybeja.android.chess.puzzle.Vitesse;
+
 // YBO 08/05/2020 : jwtc -> rybeja
 // YBO 29/06/2020 : Ajout BRD
+// YBO 01/07/2020 ; Ajout de vitesse
 
 public class ChessPuzzleProvider extends ContentProvider {
 
@@ -27,6 +30,7 @@ public class ChessPuzzleProvider extends ContentProvider {
     public static Uri CONTENT_URI_MATINONE = Uri.parse("content://"  + AUTHORITY + "/Mixed"); // YBO 14/02/2020
     public static Uri CONTENT_URI_PLGFIN = Uri.parse("content://"  + AUTHORITY + "/plgfin"); // YBO 29/06/2020
     public static Uri CONTENT_URI_BRDMATIN3 = Uri.parse("content://"  + AUTHORITY + "/brdmatin3"); // YBO 29/06/2020
+    public static Uri CONTENT_URI_VITESSE = Uri.parse("content://"  + AUTHORITY + "/vitesse"); // YBO 01/07/2020
 
     private static final String TAG = "ChessPuzzleProvider";
 
@@ -46,12 +50,15 @@ public class ChessPuzzleProvider extends ContentProvider {
     protected static final int PLGFIN_ID = 8; // YBO 29/06/2020
     protected static final int BRDMATIN3 = 9; // YBO 29/06/2020
     protected static final int BRDMATIN3_ID = 10; // YBO 29/06/2020
+    protected static final int VITESSE = 11; // YBO 01/07/2020
+    protected static final int VITESSE_ID = 12; // YBO 01/07/2020
 
     protected static final int TYPE_PUZZLE = 101;
     protected static final int TYPE_PRACTICE = 102; // YBO 03/04/2020
     protected static final int TYPE_MATEINONE = 103; // YBO 14/02/2020
     protected static final int TYPE_PLGFIN = 104; // YBO 29/06/2020
-    protected static final int TYPE_BRDIN3 = 105; // YBO 29/06/2020
+    protected static final int TYPE_BRDMATIN3 = 105; // YBO 29/06/2020
+    protected static final int TYPE_VITESSE = 106; // YBO 01/07/2020
 
     protected static UriMatcher sUriMatcher;
     
@@ -117,7 +124,7 @@ public class ChessPuzzleProvider extends ContentProvider {
             qb.appendWhere(COL_TYPE + "=" + TYPE_PUZZLE);
             break;
 
-        case PUZZLES_ID: case PRACTICES_ID: case MATINONE_ID: case PLGFIN_ID: case BRDMATIN3_ID: // YBO 29/06/2020
+        case PUZZLES_ID: case PRACTICES_ID: case MATINONE_ID: case PLGFIN_ID: case BRDMATIN3_ID: case VITESSE_ID: // YBO 01/07/2020
             qb.setTables(GAMES_TABLE_NAME);
             qb.setProjectionMap(sGamesProjectionMap);
             qb.appendWhere(COL_ID + "=" + uri.getPathSegments().get(1));
@@ -145,9 +152,14 @@ public class ChessPuzzleProvider extends ContentProvider {
             case BRDMATIN3:
                 qb.setTables(GAMES_TABLE_NAME);
                 qb.setProjectionMap(sGamesProjectionMap);
-                qb.appendWhere(COL_TYPE + "=" + TYPE_BRDIN3);
+                qb.appendWhere(COL_TYPE + "=" + TYPE_BRDMATIN3);
                 break;
         /* FIN YBO 29/06/2020 */
+            case VITESSE: // YBO 01/07/2020
+                qb.setTables(GAMES_TABLE_NAME);
+                qb.setProjectionMap(sGamesProjectionMap);
+                qb.appendWhere(COL_TYPE + "=" + TYPE_VITESSE);
+                break;
         default:
             throw new IllegalArgumentException("Unknown URI " + uri);
         }
@@ -172,9 +184,9 @@ public class ChessPuzzleProvider extends ContentProvider {
     @Override
     public String getType(Uri uri) {
         switch (sUriMatcher.match(uri)) {
-        case PUZZLES: case MATINONE: case PRACTICES: case PLGFIN: case BRDMATIN3:
+        case PUZZLES: case MATINONE: case PRACTICES: case PLGFIN: case BRDMATIN3: case VITESSE: // YBO 01/07/2020
             return CONTENT_TYPE;
-        case PUZZLES_ID: case PRACTICES_ID: case MATINONE_ID: case PLGFIN_ID: case BRDMATIN3_ID:
+        case PUZZLES_ID: case PRACTICES_ID: case MATINONE_ID: case PLGFIN_ID: case BRDMATIN3_ID: case VITESSE_ID: // YBO 01/07/2020
             return CONTENT_ITEM_TYPE;
         default:
             throw new IllegalArgumentException("Unknown URI " + uri);
@@ -187,7 +199,7 @@ public class ChessPuzzleProvider extends ContentProvider {
     	
     	int iType = sUriMatcher.match(uri);
         // YBO 03/04/2020 PRATICES en commentaire
-        if (iType != PUZZLES &&  iType != PRACTICES && iType != MATINONE && iType !=  PLGFIN && iType != BRDMATIN3) { // YBO 14/02/2020
+        if (iType != PUZZLES &&  iType != PRACTICES && iType != MATINONE && iType !=  PLGFIN && iType != BRDMATIN3 && iType != VITESSE) { // YBO 01/07/2020
             throw new IllegalArgumentException("Unknown URI " + uri);
         }
 
@@ -212,7 +224,9 @@ public class ChessPuzzleProvider extends ContentProvider {
         else if(iType == PLGFIN) // YBO 29/06/2020
             values.put(COL_TYPE,TYPE_PLGFIN);
         else if(iType == BRDMATIN3) // YBO 29/06/2020
-            values.put(COL_TYPE,TYPE_BRDIN3);
+            values.put(COL_TYPE,TYPE_BRDMATIN3);
+        else if(iType == VITESSE) // YBO 01/07/2020
+            values.put(COL_TYPE,TYPE_VITESSE);
 
         SQLiteDatabase db = mOpenHelper.getWritableDatabase();
         long rowId = db.insert(GAMES_TABLE_NAME, null, values);
@@ -230,6 +244,8 @@ public class ChessPuzzleProvider extends ContentProvider {
             else if(iType == BRDMATIN3)
                 myUri = ContentUris.withAppendedId(CONTENT_URI_BRDMATIN3, rowId);
             // FIN YBO 29/06/2020
+            else if(iType == VITESSE) // YBO 01/07/2020
+                myUri = ContentUris.withAppendedId(CONTENT_URI_VITESSE, rowId);
             else if(iType == PRACTICES)
             	myUri = ContentUris.withAppendedId(CONTENT_URI_PRACTICES, rowId);
             else
@@ -252,7 +268,7 @@ public class ChessPuzzleProvider extends ContentProvider {
             		+ (!TextUtils.isEmpty(where) ? " AND (" + where + ')' : ""), whereArgs);
             break;
 
-        case PUZZLES_ID: case PRACTICES_ID: case MATINONE_ID: case PLGFIN_ID: case BRDMATIN3_ID: // YBO 29/06/2020
+        case PUZZLES_ID: case PRACTICES_ID: case MATINONE_ID: case PLGFIN_ID: case BRDMATIN3_ID: case VITESSE_ID:// YBO 01/07/2020
             String id = uri.getPathSegments().get(1);
             count = db.delete(GAMES_TABLE_NAME, COL_ID + "=" + id
                     + (!TextUtils.isEmpty(where) ? " AND (" + where + ')' : ""), whereArgs);
@@ -274,7 +290,11 @@ public class ChessPuzzleProvider extends ContentProvider {
                         + (!TextUtils.isEmpty(where) ? " AND (" + where + ')' : ""), whereArgs);
                 break;
             case BRDMATIN3:
-                count = db.delete(GAMES_TABLE_NAME, COL_TYPE + "=" + TYPE_BRDIN3
+                count = db.delete(GAMES_TABLE_NAME, COL_TYPE + "=" + TYPE_BRDMATIN3
+                        + (!TextUtils.isEmpty(where) ? " AND (" + where + ')' : ""), whereArgs);
+                break;
+            case VITESSE: // YBO 01/07/2020
+                count = db.delete(GAMES_TABLE_NAME, COL_TYPE + "=" + TYPE_VITESSE
                         + (!TextUtils.isEmpty(where) ? " AND (" + where + ')' : ""), whereArgs);
                 break;
 // FIN YBO 29/06/2020
@@ -291,6 +311,7 @@ public class ChessPuzzleProvider extends ContentProvider {
         // YBO 03/04/2020 PUZZLES_ID
         // YBO 14/02/2020 MATINONE_ID:
         // YBO 29/06/2020 : PLGFIN et BRDIN3
+        // YBO 01/07/2020 : VITESSE
 
         SQLiteDatabase db = mOpenHelper.getWritableDatabase();
         int count;
@@ -333,6 +354,9 @@ public class ChessPuzzleProvider extends ContentProvider {
 
         sUriMatcher.addURI(AUTHORITY, "brdmatin3", BRDMATIN3);
         sUriMatcher.addURI(AUTHORITY, "brdmatin3/#", BRDMATIN3_ID);
+
+        sUriMatcher.addURI(AUTHORITY, "vitesse", VITESSE);
+        sUriMatcher.addURI(AUTHORITY, "vitesse/#", VITESSE_ID);
 
     }
 }
