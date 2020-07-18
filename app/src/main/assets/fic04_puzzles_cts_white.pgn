@@ -7188,17 +7188,17 @@
 1... gxf5 2. Qg5+ 0-1
 
 [Event "1106 09527"]
-[Site "?"]
+[Site "ybo en passant fixed"]
 [Date "????.??.??"]
 [Round "?"]
 [White "Solver"]
 [Black "?"]
 [Result "0-1"]
 [SetUp "1"]
-[FEN "r4rk1/pp3ppp/2nq1n2/6Bb/2Pp4/P2B1P2/1P2N1PP/R2Q1RK1 b - - 0 1"]
-[PlyCount "0"]
+[FEN "r4rk1/pp3ppp/2nq1n2/6Bb/2Pp4/P2B1P2/1P2N1PP/R2Q1RK1 b - c3 0 1"]
+[PlyCount "2"]
 
-{Error reading move: d4c3}  0-1
+1... dxc3 2.Bxh7+ Nxh7 3.Qxd6  0-1
 
 [Event "1106 36829"]
 [Site "?"]
@@ -18615,17 +18615,17 @@
 1... Nc5 2. Rxb4 0-1
 
 [Event "1248 38630"]
-[Site "?"]
+[Site "ybo ajout prise en passant"]
 [Date "????.??.??"]
 [Round "?"]
 [White "Solver"]
 [Black "?"]
 [Result "0-1"]
 [SetUp "1"]
-[FEN "4rk1r/pp3ppp/6b1/2P5/1PqpP3/P4P2/3Q2PP/2B1KB1R b K - 0 1"]
+[FEN "4rk1r/pp3ppp/6b1/2P5/1PqpP3/P4P2/3Q2PP/2B1KB1R b K e3 0 1"]
 [PlyCount "0"]
 
-{Error reading move: e4e3}  0-1
+1... dxe3 2. Qd6+ Kg8 3.Bxc4
 
 [Event "1248 56631"]
 [Site "?"]

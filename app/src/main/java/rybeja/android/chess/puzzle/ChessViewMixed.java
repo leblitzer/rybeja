@@ -139,9 +139,14 @@ public class ChessViewMixed extends UI {
                 aTypeFenOrPgn = R.integer.type_pgn;
                 aforceFirstMove = true; // YBO 15/04/2020
                 break;
+            case R.string.start_puzzles_brd_mat_in_2:  //YBO 18/07/2020
+                aPuzzleProvider = MyPuzzleProvider.CONTENT_URI_BRDMATIN2;
+                aFileName = "fic05_puzzle_brd_mat_en_2.pgn";
+                aTypeFenOrPgn = R.integer.type_pgn;
+                break;
             case R.string.start_puzzles_brd_mat_in_3:  //YBO 29/06/2020
                 aPuzzleProvider = MyPuzzleProvider.CONTENT_URI_BRDMATIN3;
-                aFileName = "fic05_puzzle_brd_mat_en_3.pgn";
+                aFileName = "fic06_puzzle_brd_mat_en_3.pgn";
                 aTypeFenOrPgn = R.integer.type_pgn;
         }
 

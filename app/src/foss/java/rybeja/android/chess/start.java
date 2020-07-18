@@ -26,12 +26,14 @@ import rybeja.android.chess.puzzle.puzzle;
 import rybeja.android.chess.tools.pgntool;
 
 // A Dupliquer dans D:\you\Prog\ProgMy\Android-Workspace\Younes\17EntrainementVitesse3\app\src\playStore\java\jwtc\android\chess\start.java
+// la liste : R.array.start_menu
 
 /**
  * YBO : 07/02/2020 : Ajout de parameters
  * YBO : 14/02/2020 : Ajout de mat en 2 : start_menu pour le menu
- * YBO : 29/06/2020 : Ajout des BRD
+ * YBO : 29/06/2020 : Ajout des brdmatin3
  * YBO : 01/07/2020 : Ajout de Vitesse et modifier R.array.start_menu
+ * YBO : 18/07/2020 : Ajout de brdmatin2
  */
 
 public class start extends Activity {
@@ -116,6 +118,11 @@ public class start extends Activity {
                     } else if (_ssActivity.equals(getString(R.string.start_puzzles_brd_mat_in_3))) {
                         i.setClass(start.this, Mixed.class);
                         i.putExtra(getString(R.string.bundle_type_position), R.string.start_puzzles_brd_mat_in_3);
+                        i.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+                        startActivity(i);
+                    } else if (_ssActivity.equals(getString(R.string.start_puzzles_brd_mat_in_2))) {
+                        i.setClass(start.this, Mixed.class);
+                        i.putExtra(getString(R.string.bundle_type_position), R.string.start_puzzles_brd_mat_in_2);
                         i.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
                         startActivity(i);
                         // FIN YBO 14/02/2020

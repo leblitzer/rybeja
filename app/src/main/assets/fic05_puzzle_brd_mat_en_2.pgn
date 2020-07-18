@@ -1,0 +1,4122 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/3R4/2n4B/2PBP3/K2kP3/2p3P1/2P5/6N1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Rc7 {[%emt 0:00:01]} Nxe5 {[%emt 0:00:00]} 2. Ne2# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/3R4/2nN3B/2P1P3/2Bk4/K5P1/1P6/6N1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Rc7 {[%emt 0:00:01]} Nxe5 {[%emt 0:00:01]} 2. Ne2# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3K2B1/5R2/1p1k3p/3b4/4P3/P1p5/1BR3Q1/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qd2 {[%emt 0:00:01]} cxd2 {[%emt 0:00:01]} 2. Rd7# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/4pb1N/3BkN2/1p3p2/1Qp5/K6B/8/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bg2 {[%emt 0:00:01]} exd6 {[%emt 0:00:01]} 2. Qe1# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2R3B1/8/2n1P3/3kP1NR/1p1n1B2/1P3P2/8/Q6K w - - 0 1"]
+[PlyCount "3"]
+
+1. Be3 {[%emt 0:00:01]} Nc2 {[%emt 0:00:01]} 2. e7# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "K4Q1b/2p4N/p6P/3Pkb2/Rn6/q1pp3P/1N3BB1/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qf7 {[%emt 0:00:01]} cxb2 {[%emt 0:00:01]} 2. Qxc7# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3KR2B/1B3p2/8/P3N2R/3k2p1/P5P1/3PP3/1N6 w - - 0 1"]
+[PlyCount "3"]
+
+1. d3 {[%emt 0:00:01]} f5 {[%emt 0:00:00]} 2. Nd7# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1K2N1B1/2p2p1r/2P3n1/R3pkp1/2Q3n1/2NP4/8/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nd5 {[%emt 0:00:01]} Rh1 {[%emt 0:00:01]} 2. Ng7# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1Q6/N5n1/8/2Pk1bRB/3P4/4nP2/1B2K3/4N3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ng2 {[%emt 0:00:01]} Nxh5 {[%emt 0:00:01]} 2. Qg8# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2R3Q1/8/K3p3/nN1kpNpp/1p4rR/3p2p1/8/6B1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Rc4 {[%emt 0:00:01]} gxh4 {[%emt 0:00:01]} 2. Ne3# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/8/P2p4/4pK2/2p1P1P1/4kN2/Q4NP1/4qB2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qa5 {[%emt 0:00:01]} Qxa5 {[%emt 0:00:00]} 2. Nd1# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2B1N3/8/1K6/1P1k1NpR/5P2/P2rP3/1P3n2/1Q6 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qf1 {[%emt 0:00:01]} gxf4 {[%emt 0:00:00]} 2. Nfd6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2R1R3/4b3/2pp4/N1PP1pNQ/K2k1B2/3P4/2P3B1/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bd2 {[%emt 0:00:00]} cxd5 {[%emt 0:00:00]} 2. Nf3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3r4/1n6/P4Q2/P2Br2p/RN1k4/8/NK3P1q/6B1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nc1 {[%emt 0:00:00]} Qxg1 {[%emt 0:00:00]} 2. Nb3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2N2K1B/5p2/2PNpr2/1QpkP3/3r4/5P2/3P4/5R1B w - - 0 1"]
+[PlyCount "3"]
+
+1. Qb2 {[%emt 0:00:00]} Kxe5 {[%emt 0:00:00]} 2. f4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "rB6/2n5/R2np3/1P2k1N1/4P3/N5Pb/2P2Q2/1RK5 w - - 0 1"]
+[PlyCount "3"]
+
+1. c4 {[%emt 0:00:05]} Nxa6 {[%emt 0:00:00]} 2. Qb2# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1N6/8/3pp3/Q1pk4/8/2P2P2/1K2P3/5B2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qd8 {[%emt 0:00:00]} c4 {[%emt 0:00:00]} 2. Qa5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2B5/b3K1N1/1P2P3/pp1k2pR/N1R2P2/n2prp2/3B4/1Q6 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nf5 {[%emt 0:00:00]} Nxb1 {[%emt 0:00:00]} 2. Nxe3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1N6/B7/3p1P2/3k2K1/5P2/1R1Bn3/3P4/4R3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Rb6 {[%emt 0:00:01]} Kd4 {[%emt 0:00:00]} 2. Rxd6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4Q3/1pN5/1P1p4/3pN1bR/3kP3/K2B1bP1/1P3P2/6B1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qd8 {[%emt 0:00:00]} Bxd8 {[%emt 0:00:01]} 2. Ne6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4RQ1N/2p1r1p1/2P2b2/1P2k1PR/1P6/3P2P1/B6N/3K4 w - - 0 1"]
+[PlyCount "3"]
+
+1. Kd2 {[%emt 0:00:01]} Rxe8 {[%emt 0:00:00]} 2. Qc5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2B2Q2/3N4/1p3p2/1p1knR2/1P6/2P5/1K3P2/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qd8 {[%emt 0:00:00]} Ke6 {[%emt 0:00:00]} 2. Nxe5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1B6/4pK2/B1p1P3/1p1k1NpR/7p/2PN3P/1P1R4/Q7 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qb1 {[%emt 0:00:00]} Ke4 {[%emt 0:00:00]} 2. Ne1# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/1B2Qp2/3p1P1B/4P1n1/1N1k4/6P1/1P1N4/2K5 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ba6 {[%emt 0:00:00]} dxe5 {[%emt 0:00:00]} 2. Qa7# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/1PB5/3rk1P1/1P4Q1/8/1KPp4/8/1B6 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qf4 {[%emt 0:00:00]} Ke7 {[%emt 0:00:00]} 2. Qf7# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4N3/B3p3/2P5/2pkn2R/K5P1/4PN2/3P4/5B2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bg2 {[%emt 0:00:00]} Kxc6 {[%emt 0:00:00]} 2. Nxe5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/3p1K2/3p1P2/4P1N1/1P1kp3/2N4R/1Q6/5B2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Rh5 {[%emt 0:00:01]} dxe5 {[%emt 0:00:00]} 2. Qd2# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2QB4/8/K1Npp1nq/p2NPk1p/P1n4P/5P2/8/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qb7 {[%emt 0:00:00]} exd5 {[%emt 0:00:00]} 2. Qf7# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4N3/Q2pR1pB/2p3n1/3kp3/2n5/3p2K1/1B6/2R5 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qa4 {[%emt 0:00:00]} Nxe7 {[%emt 0:00:00]} 2. Qxc4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4N3/4p3/pbk5/r1p5/P3R2P/1Q4BB/6n1/1K6 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qf3 {[%emt 0:00:00]} e5 {[%emt 0:00:00]} 2. Rxe5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1N4Q1/6P1/Rp1q2b1/2P1k1P1/2PNp3/1K4P1/8/4R3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qf8 {[%emt 0:00:00]} Qxd4 {[%emt 0:00:00]} 2. Qf6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2B5/7n/3p2R1/6nR/1QbpkN2/8/3KP2B/4N3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nd5 {[%emt 0:00:01]} Bxd5 {[%emt 0:00:00]} 2. Rh4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "5R2/2p1B3/2Q1pn2/2p1k3/2P4P/5b2/1KN4P/1B3R2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nd4 {[%emt 0:00:00]} Kxd4 {[%emt 0:00:00]} 2. Qxc5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3R2B1/5N2/3brp2/1P6/2r1kP2/2p4P/Q1K1N3/3R2B1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Rf1 {[%emt 0:00:00]} Kd5 {[%emt 0:00:00]} 2. Nxc3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/5NpK/Q7/4rR2/3Nk3/8/2PP2P1/1n2n3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ne2 {[%emt 0:00:00]} Rxf5 {[%emt 0:00:00]} 2. Qc4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "B7/1R6/4p2N/3p1N1P/4k1p1/3p2P1/1P2PK2/5Q2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nf7 {[%emt 0:00:00]} Kxf5 {[%emt 0:00:00]} 2. Ke3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3N4/2p1qP2/2Pk1P2/4p3/3PB3/K7/8/6Q1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qg5 {[%emt 0:00:00]} Qe8 {[%emt 0:00:00]} 2. fxe8=N# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3n2K1/1p6/1B1p2pN/3k2p1/B3n1N1/4pQ2/1P6/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nf7 {[%emt 0:00:00]} Nxf7 {[%emt 0:00:00]} 2. Qxf7# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "6B1/4B3/4p3/2P2N2/2pPkn2/3R1RPP/3Q1p2/5K2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qa2 {[%emt 0:00:00]} Nxd3 {[%emt 0:00:00]} 2. Qa8# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1n6/2PPp3/R2rP2b/3k4/4RP2/B3P1Q1/3K4/1B5b w - - 0 1"]
+[PlyCount "3"]
+
+1. c8=N {[%emt 0:00:00]} Bxe4 {[%emt 0:00:00]} 2. Ba2# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1n1bk1NR/1P2P3/1P2p1K1/1pN5/b7/3B4/8/3R4 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ne4 {[%emt 0:00:00]} Bxb6 {[%emt 0:00:00]} 2. Nef6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1B6/6p1/P2n4/3p2nN/QK1k4/3P3p/b4P1N/1B1R4 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qd7 {[%emt 0:00:02]} Bxb1 {[%emt 0:00:00]} 2. Qxg7# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "K7/2pQ2p1/2Pn2P1/R1n4B/2p1k1N1/2P1P3/3R3P/1N6 w - - 0 1"]
+[PlyCount "3"]
+
+1. Re2 {[%emt 0:00:00]} Nxd7 {[%emt 0:00:01]} 2. Nf2# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1n3b2/3P4/3p1p2/RB1k2p1/8/P1p1K3/rN5Q/4R1B1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qh7 {[%emt 0:00:00]} Rxb2 {[%emt 0:00:00]} 2. Qf5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4R3/N2p4/N1PPn3/K2k2PR/5p2/1PPB4/7B/Q7 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nc8 {[%emt 0:00:01]} dxc6 {[%emt 0:00:00]} 2. c4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1B2R3/3Kbp2/2Pp1P2/2N3P1/3k4/Q5NR/5p2/5B2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qa5 {[%emt 0:00:01]} dxc5 {[%emt 0:00:00]} 2. Qd2# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/1N2K3/1p6/1BRpp1N1/3kn1nR/6P1/8/4B3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nd6 {[%emt 0:00:00]} Nxg3 {[%emt 0:00:00]} 2. Bf2# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1B5R/p5n1/P5pP/RnN3k1/8/p4P1K/P1Q1B3/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qc3 {[%emt 0:00:00]} Nxc3 {[%emt 0:00:00]} 2. Ne4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2R5/B2K1P1Q/8/3kbpR1/8/P5Pp/P3P2P/1N3B2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Re8 {[%emt 0:00:00]} Kc4 {[%emt 0:00:00]} 2. e4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/3K3B/p1P1P1R1/P2k1rR1/pn6/B4N2/3P2P1/1NQ5 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qf1 {[%emt 0:00:01]} Rxg5 {[%emt 0:00:00]} 2. Rxg5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3R3B/N1n3N1/8/P2ppQ2/1p1k4/1P6/2P2P2/2K5 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qc8 {[%emt 0:00:00]} Kc5 {[%emt 0:00:00]} 2. Ne6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2r1B3/4b3/8/N1PkPP1R/1p6/4R3/4N3/K5B1 w - - 0 1"]
+[PlyCount "3"]
+
+1. f6 {[%emt 0:00:00]} Rxe8 {[%emt 0:00:00]} 2. e6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "7b/B6p/6p1/pK1kn1nR/Q1N2P2/P2P1pNB/8/3R4 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ka6 {[%emt 0:00:00]} gxh5 {[%emt 0:00:00]} 2. Qb5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/1N3P2/2r5/1P1k3B/4N2R/1p3K2/1B6/4R3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bg6 {[%emt 0:00:00]} Rxg6 {[%emt 0:00:00]} 2. Nc3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/3p4/K2Pp3/6nQ/3k1N2/1P2N3/3B1R2/1B6 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bb4 {[%emt 0:00:00]} Kxe3 {[%emt 0:00:00]} 2. Bc5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/2Q2p2/1p1rp3/4k1N1/1K2P3/5RP1/4n3/2B5 w - - 0 1"]
+[PlyCount "3"]
+
+1. Rf4 {[%emt 0:00:00]} Nxf4 {[%emt 0:00:00]} 2. Bb2# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "7B/Q3K3/8/2n1p1PN/2B1k3/3n4/1P2P1R1/3R1N2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ke8 {[%emt 0:00:02]} Nxb2 {[%emt 0:00:00]} 2. Qh7# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "Q3R3/3P4/2P1b1P1/7B/3p2P1/3N1k2/2P4K/5N2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Kg1 {[%emt 0:00:01]} Bxg4 {[%emt 0:00:00]} 2. c7# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1K6/1Pp3N1/4P1Pp/P2k2pR/4N3/1PBB4/7p/7Q w - - 0 1"]
+[PlyCount "3"]
+
+1. Nf5 {[%emt 0:00:00]} Kxe6 {[%emt 0:00:00]} 2. Nc5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "nK6/6Q1/4p3/1p1k3N/1P6/3P4/3P4/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qe7 {[%emt 0:00:00]} Kd4 {[%emt 0:00:00]} 2. Qd6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2R1Q3/8/p2p1NK1/P1pPN3/1P1k2P1/6R1/3r1P1B/1B6 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qa4 {[%emt 0:00:00]} Kxe5 {[%emt 0:00:00]} 2. Rd3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "NnB3R1/5R2/5N2/4k3/2Ppp1pr/1r4n1/1Q5B/6K1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Rg6 {[%emt 0:00:00]} Rxb2 {[%emt 0:00:00]} 2. Bxg3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1n6/2P3R1/1N6/Q1Bpk3/2P2b2/2R3pB/3N2K1/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Rf3 {[%emt 0:00:00]} dxc4 {[%emt 0:00:00]} 2. Qc3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "Q7/1r1N2N1/4p3/1p1kP3/1PR3n1/2P5/3K4/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nf5 {[%emt 0:00:00]} Kxc4 {[%emt 0:00:00]} 2. Qa2# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "5N2/8/5B2/2KNpk2/8/6pb/4P1n1/3B2Q1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qh1 {[%emt 0:00:01]} e4 {[%emt 0:00:00]} 2. Qxh3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4B2B/3p1K2/P2N1p1R/RN1k2p1/4p1Q1/8/P7/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nb7 {[%emt 0:00:00]} Kc4 {[%emt 0:00:00]} 2. Qxe4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "5Q2/1n6/3pp3/1K6/3kp3/1pbN4/1R2R3/B3N3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nb4 {[%emt 0:00:00]} Bxb2 {[%emt 0:00:00]} 2. Bxb2# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/5R1B/1BNp4/1n4P1/2k1N3/1nP5/1P6/5K1Q w - - 0 1"]
+[PlyCount "3"]
+
+1. Rc7 {[%emt 0:00:00]} Nxc7 {[%emt 0:00:00]} 2. Nxd6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/2pK2b1/4P1Q1/Rn1pk3/1P6/1N4P1/2P2Pn1/6B1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nd2 {[%emt 0:00:01]} c6 {[%emt 0:00:00]} 2. Nf3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1B3R2/5B1K/3n4/N2p1pN1/3k1p1R/P7/1P2PP2/6Q1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Be8 {[%emt 0:00:00]} Nxe8 {[%emt 0:00:00]} 2. f3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "N1KBB1Q1/1n5R/4PP2/1qP5/k3N2b/2P5/1PP2P2/1n6 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qg4 {[%emt 0:00:01]} Qxe8 {[%emt 0:00:00]} 2. Nd6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1QN5/2P2p2/3P4/1P2kP2/1P2p1K1/2r1P3/1N1b4/B2R4 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nb6 {[%emt 0:02:37]} Kxd6 {[%emt 0:00:00]} 2. c8=N# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2N4B/6n1/8/2pPNp1R/Q2n1kP1/3P1p1R/8/3B1K2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qa1 {[%emt 0:00:00]} fxg4 {[%emt 0:00:00]} 2. Qc1# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/4K3/1N3P2/R1n5/3pkPB1/4P3/6P1/2Q5 w - - 0 1"]
+[PlyCount "3"]
+
+1. Na4 {[%emt 0:00:00]} dxe3 {[%emt 0:00:00]} 2. Qc4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/1p6/1P2p3/3kP1K1/P1nbN1N1/8/3R4/2R4Q w - - 0 1"]
+[PlyCount "3"]
+
+1. Qh6 {[%emt 0:00:00]} Nxd2 {[%emt 0:00:00]} 2. Nef6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1NQ5/1p6/1p4K1/1N1k1P2/2p5/n3P2b/2p4B/1nR2B2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Re1 {[%emt 0:00:00]} Bxf1 {[%emt 0:00:00]} 2. e4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "6Q1/1K6/8/3N4/BPk1p2R/2P2n2/P2n4/N2R4 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qg3 {[%emt 0:00:00]} Kxd5 {[%emt 0:00:00]} 2. Bb3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/1B4B1/1Kp2p2/4pQ2/1N1k3N/8/3P4/4n3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qf1 {[%emt 0:00:00]} Ke4 {[%emt 0:00:00]} 2. Qc4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4Nb2/B1p1N1Rp/2p4Q/Rp2kp1n/5p2/K2n4/3P3p/7B w - - 0 1"]
+[PlyCount "3"]
+
+1. Bb6 {[%emt 0:00:00]} Nxg7 {[%emt 0:00:00]} 2. Qf6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "6B1/8/1Q1p3B/Rbr1k3/8/3pP3/3N1K1N/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. e4 {[%emt 0:00:00]} d5 {[%emt 0:00:00]} 2. Nhf3# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "6B1/2p1ppN1/8/3k1b1R/Q2p4/5P2/K6B/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ne6 {[%emt 0:00:00]} Kxe6 {[%emt 0:00:00]} 2. Qc6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "B2R4/B7/2Nb2p1/R3p1P1/4kP2/7P/1P5P/3KN3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ng2 {[%emt 0:00:00]} exf4 {[%emt 0:00:00]} 2. Nb4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "5B2/b2n4/1R1p1nP1/1K1kp3/7N/3N3p/1Q4r1/7B w - - 0 1"]
+[PlyCount "3"]
+
+1. Qd2 {[%emt 0:00:00]} Bxb6 {[%emt 0:00:00]} 2. Nc5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/5p2/1R3rp1/Br2k1K1/3pP3/1B6/4R3/Q7 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qc3 {[%emt 0:00:00]} Rfxb6 {[%emt 0:00:00]} 2. Qg3# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1B1R2B1/2p5/6P1/1p6/1P1nk3/1n1N1p2/2N5/3K1Q2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qh3 {[%emt 0:00:01]} Kxd3 {[%emt 0:00:00]} 2. Qxf3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3bK3/8/rp1p2NR/p2k4/2N2B2/P1R1Pq2/6Q1/1B2n2b w - - 0 1"]
+[PlyCount "3"]
+
+1. Ba2 {[%emt 0:00:00]} Bxg2 {[%emt 0:00:00]} 2. Nxd6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4R2b/p2KN3/6P1/1RBNkpp1/4p3/4rp2/2b5/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nf6 {[%emt 0:00:00]} Bxf6 {[%emt 0:00:00]} 2. Bxe3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "6b1/2R2Q2/Kb6/N2RB2B/5r1q/3pk1nN/1Pp3Pn/2r5 w - - 0 1"]
+[PlyCount "3"]
+
+1. Re7 {[%emt 0:00:00]} Rxf7 {[%emt 0:00:00]} 2. Bf4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/5K2/1P1pR3/1P1k1p2/N3rP2/3P4/1n4B1/B2R1N2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Rf6 {[%emt 0:00:00]} Nxd1 {[%emt 0:00:00]} 2. Rxf5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4K3/2p5/8/2Pk4/P2B3N/2P2P2/2B5/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ng2 {[%emt 0:00:00]} Kc4 {[%emt 0:00:00]} 2. Ne3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/KpN1p2B/pr2r3/N1k1p1BR/4R3/1p3pQ1/1P6/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Rd4 {[%emt 0:00:01]} exd4 {[%emt 0:00:00]} 2. Bxe7# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3R4/N2p1B2/8/2p1kp2/2PRb3/B2pQ3/3N4/3K4 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qg5 {[%emt 0:00:00]} cxd4 {[%emt 0:00:00]} 2. Re8# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2K3N1/2B5/1p1P3Q/R1rk1p2/4N3/P4B2/3n4/3R4 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qe3 {[%emt 0:00:00]} bxa5 {[%emt 0:00:00]} 2. Nxd2# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4R3/1B3N2/4n1Q1/B7/Rn2pk1P/2P5/8/3K4 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ne5 {[%emt 0:00:00]} Kxe5 {[%emt 0:00:00]} 2. Bc7# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/N2P3K/1r3N2/P1k3p1/b2R1pR1/1p1p1nn1/1Bp5/2Q5 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qe3 {[%emt 0:00:00]} fxe3 {[%emt 0:00:00]} 2. Rd5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2R2B2/2b1N3/3p2p1/Rp1PN1p1/3k2K1/P7/3PP3/7Q w - - 0 1"]
+[PlyCount "3"]
+
+1. Qb1 {[%emt 0:00:00]} Bxa5 {[%emt 0:00:00]} 2. Nf3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/2K1p1B1/1p6/1Rpkpp1R/1Q6/5p2/5P2/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qc3 {[%emt 0:00:00]} Ke6 {[%emt 0:00:00]} 2. Qc4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3b4/2R2K2/5pN1/2pkpN2/1n3P2/8/3PB3/1Q6 w - - 0 1"]
+[PlyCount "3"]
+
+1. d3 {[%emt 0:00:00]} Bxc7 {[%emt 0:00:00]} 2. Nge7# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4Q3/N7/4n3/1p1kP1BR/1P2n2K/2p1R1P1/2N5/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nc8 {[%emt 0:00:00]} N6xg5 {[%emt 0:00:00]} 2. Nb6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2BQ3N/4pP2/2nP2R1/4k3/1p1p4/1KbP2P1/7B/2R5 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bb7 {[%emt 0:00:00]} Nxd8 {[%emt 0:00:00]} 2. g4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1K4N1/3B4/8/2pk4/6PN/B7/2P5/Q7 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ng2 {[%emt 0:00:00]} Kc4 {[%emt 0:00:00]} 2. Ne3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3K1R2/5B2/5k1P/1P2bp2/2b5/3p1R1N/3P1P2/B2Q4 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qa4 {[%emt 0:00:00]} Bxf7 {[%emt 0:00:00]} 2. Qa6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "5N2/3pp3/1N5P/2B1k3/4p1Pb/3pQ3/3P4/3K4 w - - 0 1"]
+[PlyCount "3"]
+
+1. Kc1 {[%emt 0:00:00]} Kf6 {[%emt 0:00:00]} 2. Qf4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/2R1BB2/8/4k3/8/2K2P2/8/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bg5 {[%emt 0:00:00]} Kd6 {[%emt 0:00:00]} 2. Bf4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3Q4/2pNp3/2p3PK/2Pk4/BB2b1PN/2P5/3n4/4R3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ng2 {[%emt 0:00:00]} Bxg2 {[%emt 0:00:00]} 2. Nb6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/Q7/2p1p1N1/2p5/3k4/5P2/1P2B3/3K2b1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qa5 {[%emt 0:00:00]} c4 {[%emt 0:00:00]} 2. Qe5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "5B2/8/2K2p2/1p2kP1P/8/3rPp1P/2Q5/1B3b2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qb3 {[%emt 0:00:00]} Rxb3 {[%emt 0:00:00]} 2. Bd6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/5R2/3nP3/P1k2pNR/Qp5K/1P2Prp1/6B1/6B1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qd7 {[%emt 0:00:00]} Nxf7 {[%emt 0:00:00]} 2. Ne4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3N4/8/8/R1nkpN2/p4pQ1/K7/1B2P3/5B2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ba1 {[%emt 0:00:00]} f3 {[%emt 0:00:00]} 2. e4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/8/N5nQ/1PPk2PB/6P1/2K5/6NB/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qh7 {[%emt 0:00:00]} Ke6 {[%emt 0:00:00]} 2. Nc7# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "6Q1/5p2/3P1N2/R3pk1P/8/8/3KN1n1/7B w - - 0 1"]
+[PlyCount "3"]
+
+1. Ne4 {[%emt 0:00:01]} Kxe4 {[%emt 0:00:00]} 2. Qg4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3N4/8/2P2P2/R1b1k1K1/2p1P3/2N1p1p1/p3P1B1/B7 w - - 0 1"]
+[PlyCount "3"]
+
+1. Kh5 {[%emt 0:00:00]} Kxf6 {[%emt 0:00:00]} 2. Nd5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3R2R1/2p1K2n/3rP3/3k4/3p1P2/1P6/2Q5/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Kf7 {[%emt 0:00:00]} Rxd8 {[%emt 0:00:00]} 2. Rxd8# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "6Q1/8/KpR1ppP1/1P1kbn1R/3p4/3N4/1B2PP2/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Rc4 {[%emt 0:00:00]} Kxc4 {[%emt 0:00:00]} 2. Qxe6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4Q1B1/8/8/2pP4/2pk3p/1p4nR/1p1NPr2/1K1R2B1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qb8 {[%emt 0:00:00]} Nxe2 {[%emt 0:00:00]} 2. Bxf2# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "K1N5/8/3P1P2/2pk1B1R/P2P4/6N1/5Q2/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qb2 {[%emt 0:00:00]} cxd4 {[%emt 0:00:00]} 2. Qb5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "N7/1K3R1p/3p4/2Bk4/P2Prp2/r1n5/p1B3Q1/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qg8 {[%emt 0:00:04]} a1=Q {[%emt 0:00:00]} 2. Rf5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2N1Q3/5pK1/4b3/1RPk1P2/4n3/1N1p4/3B4/2R5 w - - 0 1"]
+[PlyCount "3"]
+
+1. Re1 {[%emt 0:00:00]} Bxf5 {[%emt 0:00:00]} 2. Nb6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2N1Qb2/3p2pn/3R1P2/3p1kPR/2bK2p1/1p4P1/1P6/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qf7 {[%emt 0:00:00]} Bxd6 {[%emt 0:00:00]} 2. Nxd6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/1Q1pK3/P7/2kP4/q2Np3/2P1R3/P2N4/7B w - - 0 1"]
+[PlyCount "3"]
+
+1. Rd3 {[%emt 0:00:01]} exd3 {[%emt 0:00:01]} 2. Qa7# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3Q4/3n1N2/4P2p/7P/R2Pk3/8/3PB2P/2BR1K2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bg4 {[%emt 0:00:01]} Nc5 {[%emt 0:00:01]} 2. dxc5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4R2Q/4N3/4prP1/R2n4/5kNP/K1P2P2/2P1p3/4B3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nh2 {[%emt 0:00:01]} Nxe7 {[%emt 0:00:01]} 2. Qh6# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "B1N5/2p5/4P3/1p6/P1k5/Qp2P3/1p1K4/1N6 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qe7 {[%emt 0:00:01]} bxa4 {[%emt 0:00:01]} 2. Na3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/1p1B4/6Q1/1n1kp3/N6K/4p3/2N4B/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bg1 {[%emt 0:00:01]} Kc4 {[%emt 0:00:01]} 2. Be6# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1B6/2n5/p1N1P2R/P1K3N1/4Pk2/1Q2p2p/6nP/1B4R1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ne5 {[%emt 0:00:01]} Kxe5 {[%emt 0:00:01]} 2. Bxc7# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3N4/3p4/K2Br3/1N1kPR2/1p2p3/1P1r1p2/3P1P2/7Q w - - 0 1"]
+[PlyCount "3"]
+
+1. Qd1 {[%emt 0:00:01]} Rd4 {[%emt 0:00:01]} 2. Nc7# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4Q3/2Np2K1/3p4/2P1P1NR/3kp3/Bp2p3/2b1B3/2R5 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qb8 {[%emt 0:00:01]} dxc5 {[%emt 0:00:01]} 2. Bb2# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/6n1/3P2Q1/1B1k1r1R/1p4N1/1Np3P1/2P5/4K3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bd7 {[%emt 0:00:01]} Nxh5 {[%emt 0:00:01]} 2. Qe6# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2N5/5pP1/8/3kbn2/QP1P3p/2PR1P1B/6K1/2R2N2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Re3 {[%emt 0:00:01]} Nxg7 {[%emt 0:00:01]} 2. Qb5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2b5/2N5/2p2p2/3R1P1N/1P1pkP2/8/1b2BK2/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ne8 {[%emt 0:00:01]} cxd5 {[%emt 0:00:01]} 2. Nd6# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "5K1B/QB1p1pN1/4p3/R2nk2P/N3n2P/4R1P1/8/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nb6 {[%emt 0:00:01]} d6 {[%emt 0:00:01]} 2. Nd7# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/3Q1N2/Bp1b4/1n6/3kp3/B3N1P1/1P3K2/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nd8 {[%emt 0:00:01]} Nxa3 {[%emt 0:00:00]} 2. Qxd6# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "7Q/3p1B2/4rp1p/2pP1N1K/2N1k3/1PP3P1/4P3/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qe8 {[%emt 0:00:01]} Rxe8 {[%emt 0:00:01]} 2. Nfd6# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2N5/1B1p2B1/2r3nR/2pk1bN1/Rn6/2P5/P3P2K/6Q1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qf1 {[%emt 0:00:01]} Kc4 {[%emt 0:00:01]} 2. e4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1K6/8/8/3kPB1N/P7/8/N3P3/Q7 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qg1 {[%emt 0:00:01]} Kc4 {[%emt 0:00:01]} 2. Be6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/8/2P1PP2/1Qr1kNp1/6B1/2N2K2/1B6/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ne7 {[%emt 0:00:01]} Rxb5 {[%emt 0:00:01]} 2. Nxb5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3K4/3N4/8/2Q2p2/3P1r2/3pkB2/3pP3/7N w - - 0 1"]
+[PlyCount "3"]
+
+1. Nb6 {[%emt 0:00:01]} d1=Q {[%emt 0:00:01]} 2. Nc4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "6nN/KB1RrR2/2P2P2/5k2/4pPp1/8/4N3/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bc8 {[%emt 0:00:01]} Rxd7+ {[%emt 0:00:01]} 2. Bxd7# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/3p1QB1/B2pp3/8/2p1k1pN/8/1N3P2/4K3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Na4 {[%emt 0:00:01]} d5 {[%emt 0:00:01]} 2. Nc5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3R4/1B1Nr1p1/7Q/1RP5/n1pk4/4p3/2P5/2K2N2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ng3 {[%emt 0:00:01]} gxh6 {[%emt 0:00:01]} 2. Ne2# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/1Q1p4/4pp2/R1p1k1pR/8/4K3/8/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qb4 {[%emt 0:00:01]} f5 {[%emt 0:00:01]} 2. Qd4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4R3/p1p3B1/Q2Pb3/3k3B/N5P1/1K2n3/4R1P1/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bf7 {[%emt 0:00:01]} Bxf7 {[%emt 0:00:01]} 2. Rd2# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/1p4N1/1Q1N4/3kp3/8/6P1/2K5/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ndf5 {[%emt 0:00:01]} Kc4 {[%emt 0:00:00]} 2. Ne3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/3p4/1Q2p3/3k4/8/N5N1/3K4/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nc2 {[%emt 0:00:01]} Ke5 {[%emt 0:00:01]} 2. Qd4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1Nb2b2/1r2p1p1/5R1Q/1P2kn1R/8/B1P3P1/3P1N2/K7 w - - 0 1"]
+[PlyCount "3"]
+
+1. c4 {[%emt 0:00:01]} gxh6 {[%emt 0:00:01]} 2. Bb2# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1B3n2/1NN3p1/5PP1/4k3/6Q1/4PrP1/5p2/5K2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Na5 {[%emt 0:00:01]} gxf6 {[%emt 0:00:01]} 2. Nc4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "r1bN2R1/pPk5/p1pp4/P1N2p2/4PB2/8/K7/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. e5 {[%emt 0:00:01]} dxc5 {[%emt 0:00:01]} 2. e6# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/8/3p1n2/1p6/2k5/1N1N1Q2/1K6/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qe2 {[%emt 0:00:01]} Nd7 {[%emt 0:00:01]} 2. Qe4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1b1K3B/4Q1np/p3Pn1R/Pb1Pk3/3pP1p1/3P2R1/1N2NP2/1B6 w - - 0 1"]
+[PlyCount "3"]
+
+1. Re3 {[%emt 0:00:01]} dxe3 {[%emt 0:00:01]} 2. d4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "6K1/3p2N1/2P1P3/3k4/3p1P2/1P2P3/2Q5/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ne8 {[%emt 0:00:01]} d6 {[%emt 0:00:01]} 2. Nc7# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "6K1/4p2p/3P2nR/QN2k1p1/1N4P1/5P2/4PB2/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qd8 {[%emt 0:00:01]} Nf8 {[%emt 0:00:01]} 2. Bg3# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4N3/3B4/6p1/P2k2P1/P2P4/8/3Q4/1K6 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bg4 {[%emt 0:00:01]} Ke4 {[%emt 0:00:01]} 2. Nf6# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "Q7/6p1/3Pp1P1/2P1k2n/1R5P/4P1n1/7B/1BK1R3 w - - 0 1"]
+[PlyCount "3"]
+
+1. e4 {[%emt 0:00:01]} Kf6 {[%emt 0:00:01]} 2. e5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "6B1/3N1p2/Q6p/2pk1rpR/3b3R/3P4/5pN1/5K2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bh7 {[%emt 0:00:01]} gxh4 {[%emt 0:00:01]} 2. Nf4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2R5/1pn5/b2RP3/N1k2K2/1p6/2Np4/3P1P2/2Q5 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qb2 {[%emt 0:00:01]} Kxd6 {[%emt 0:00:01]} 2. Qxb4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/1p1K4/pQp5/q2kp3/p7/N7/3P4/1B2N1B1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nc4 {[%emt 0:00:01]} Qxb6 {[%emt 0:00:01]} 2. Nxb6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3R4/2p5/2Pb4/R1p2P1P/4k3/2P1NNpP/3B2B1/3K4 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ng4 {[%emt 0:00:01]} Kxf5 {[%emt 0:00:01]} 2. Nd4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4QB2/5n2/2pr4/4P1bR/3k4/6NN/B2PK3/3R4 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qb8 {[%emt 0:00:01]} Nxe5 {[%emt 0:00:01]} 2. Qxd6# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/1pN1p3/4Q3/2k3p1/2p3Rb/1P4p1/1n1PK1B1/1N2B3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Kf1 {[%emt 0:00:01]} cxb3 {[%emt 0:00:01]} 2. d4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2Nn1B2/K6B/2p5/6P1/P2k4/1b2N1P1/pP6/Q3R3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ne7 {[%emt 0:00:01]} Bxa4 {[%emt 0:00:01]} 2. b4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "7b/3QPp2/2p1r2R/2P2k1N/5P2/2pKBP2/2N5/5n2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ke2 {[%emt 0:00:01]} Nxe3 {[%emt 0:00:01]} 2. Nxe3# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/8/4P1p1/1p1P2p1/1P1N2B1/P1pk1N1R/Qn3p1K/2B2R2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nb3 {[%emt 0:00:01]} Ke4 {[%emt 0:00:01]} 2. Nc5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "BbN5/6QK/4p2R/B1k5/3p1rp1/3P2N1/1P6/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Na7 {[%emt 0:00:01]} Bxa7 {[%emt 0:00:01]} 2. Qe5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3Q4/B2b4/1R5K/2n5/p1R1Pp1N/p2NkP2/P7/5B2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Rc2 {[%emt 0:00:01]} Bh3 {[%emt 0:00:01]} 2. Re2# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1b6/4Q1p1/4p3/R2pk1B1/1n2r1R1/2P1N1n1/8/1K1B4 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bc2 {[%emt 0:00:01]} Na2 {[%emt 0:00:01]} 2. Rxd5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/4p3/7N/3kp1N1/Q1p5/4P3/2n2K2/1B6 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ne4 {[%emt 0:00:01]} Kxe4 {[%emt 0:00:01]} 2. Qxc4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2N5/b6Q/Kp3p2/1R6/pBkr4/4PN2/1P1p4/3Bn3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bd6 {[%emt 0:00:01]} Nxf3 {[%emt 0:00:01]} 2. Qc2# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "R3K3/8/8/5N2/4P3/PkpB3Q/p3np2/2B3b1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qg3 {[%emt 0:00:01]} Nxg3 {[%emt 0:00:01]} 2. Nd4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1N5K/2n3B1/2pP3p/2Pk3B/P3N1R1/7Q/b1n5/2R5 w - - 0 1"]
+[PlyCount "3"]
+
+1. Na6 {[%emt 0:00:01]} Nxa6 {[%emt 0:00:01]} 2. Bf7# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/7Q/2R1R3/3brp2/3pk2K/8/4P1N1/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qb7 {[%emt 0:00:01]} Bxc6 {[%emt 0:00:01]} 2. Qxc6# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/3Q4/2p1N2R/RB1p2p1/4k1p1/3nN2n/6P1/1K4B1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nc4 {[%emt 0:00:01]} cxb5 {[%emt 0:00:01]} 2. Qh7# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3RR2B/3b4/B3PpN1/2QP4/2N1k3/1P5p/2K4P/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qg1 {[%emt 0:00:01]} Bb5 {[%emt 0:00:01]} 2. Qg4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1B2K3/4p3/Q1pNN3/1p1k4/1P4pR/2P1n3/P7/1B2R3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nc4 {[%emt 0:00:01]} Nxc4 {[%emt 0:00:00]} 2. Nf4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/BK2N3/Rn6/4kPR1/6P1/8/3P4/7Q w - - 0 1"]
+[PlyCount "3"]
+
+1. Rg7 {[%emt 0:00:00]} Kd6 {[%emt 0:00:00]} 2. Qd5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "5B2/7Q/2n1n3/2Pkr3/1Pp3PN/2P5/2NKb3/1B2R3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ng6 {[%emt 0:00:00]} Nxf8 {[%emt 0:00:00]} 2. Nf4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "K6Q/N2p1P2/7P/2P1P3/1p1k4/1B4N1/3B4/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qd8 {[%emt 0:00:00]} Kxc5 {[%emt 0:00:00]} 2. Be3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1K2R3/3p2R1/1B1Pb1B1/4P1P1/3p1k1p/2N4P/1N2Pn2/6Q1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bh7 {[%emt 0:00:00]} dxc3 {[%emt 0:00:00]} 2. Qh2# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1Q4B1/5N2/p2pn3/1Pk5/4P3/P7/1P1N1K2/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nd8 {[%emt 0:00:01]} Nxd8 {[%emt 0:00:01]} 2. Nb3# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1K6/B3p3/1NBPp3/4k3/4nNPP/4Rb2/3P3Q/5R2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Be8 {[%emt 0:00:00]} exd6 {[%emt 0:00:05]} 2. Nd7# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/2n2N2/7P/P5N1/R1PkBp2/5p1Q/P4K2/2B5 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qc8 {[%emt 0:00:00]} Nb5 {[%emt 0:00:00]} 2. cxb5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "5B2/2p1p2N/K1Pk4/2N3bR/3p2P1/3Pp3/2Q3B1/4R3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qf2 {[%emt 0:00:00]} exf2 {[%emt 0:00:00]} 2. Nb7# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1n1B2B1/8/pN1k1pnR/N1p5/4p3/Q4PK1/8/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qe3 {[%emt 0:00:00]} exf3 {[%emt 0:00:00]} 2. Qe6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "B5Q1/5N2/2r1r3/6P1/2k5/1R1NPP2/P1P1p3/2R1K3 w - - 0 1"]
+[PlyCount "3"]
+
+1. c3 {[%emt 0:00:00]} Kxd3 {[%emt 0:00:00]} 2. c4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3R4/7Q/3pnK2/3k4/P6N/1P1N4/8/1B6 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nf5 {[%emt 0:00:00]} Nxd8 {[%emt 0:00:00]} 2. Qh1# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "7Q/4p3/2RnBp2/2b5/K2kp2R/2N3n1/2P2P1B/4N3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qb8 {[%emt 0:00:00]} Kxc3 {[%emt 0:00:00]} 2. Qb4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1K6/3p4/8/3Pk1B1/1P2P3/5p2/2NN1P2/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ne1 {[%emt 0:00:02]} d6 {[%emt 0:00:00]} 2. Nexf3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2K4N/2P2p2/2p1k3/2BNp3/1P6/5P2/4Q3/1B6 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bh7 {[%emt 0:00:01]} cxd5 {[%emt 0:00:00]} 2. Qa6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "B3n3/1N1p3N/3PkB2/8/1K1P4/3p1R2/8/5Q2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qg2 {[%emt 0:00:00]} Nxd6 {[%emt 0:00:00]} 2. Nd8# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/K3N3/1RN1p3/2k1pb1R/2p3p1/2b3B1/1PQ5/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nd4 {[%emt 0:00:00]} Bxb2 {[%emt 0:00:00]} 2. Nb3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1b6/n5K1/1B2p3/4kp2/R2N4/8/1N5P/2R3nB w - - 0 1"]
+[PlyCount "3"]
+
+1. Rd1 {[%emt 0:00:00]} Nf3 {[%emt 0:00:00]} 2. Nxf3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/4N2b/2P1Bp2/1N2kP2/2p1PRnR/6n1/3Pp1PB/2Q1K3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bd5 {[%emt 0:00:00]} Kxf4 {[%emt 0:00:00]} 2. d4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "5b2/4p3/1Q6/3k4/7R/Pp1bPP2/6B1/4K3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Rc4 {[%emt 0:00:00]} Kxc4 {[%emt 0:00:00]} 2. Qc6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4K3/4P3/2Rrkp2/3bp3/8/1B2Q1N1/2N1n3/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Rb6 {[%emt 0:00:00]} Rxb6 {[%emt 0:00:00]} 2. Qxb6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4R3/8/3PB3/1K2k2P/8/3P2NR/7B/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Re7 {[%emt 0:00:00]} Kxd6 {[%emt 0:00:00]} 2. Nf5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/3K4/N7/5p2/3kpn2/PP4Q1/n2P4/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nc7 {[%emt 0:00:00]} Ke5 {[%emt 0:00:00]} 2. Qg7# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "5BB1/1pp1p3/1Pk5/p4N1K/P2R4/3P3Q/8/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qe3 {[%emt 0:00:00]} cxb6 {[%emt 0:00:00]} 2. Qc1# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "6K1/2R1p3/3bk1n1/3pPp2/3R4/1N6/7B/2Q5 w - - 0 1"]
+[PlyCount "3"]
+
+1. Re4 {[%emt 0:00:01]} fxe4 {[%emt 0:00:01]} 2. Nd4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "Q7/2p4B/2K5/4pP2/3pk3/3pPp2/7B/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bf4 {[%emt 0:00:00]} exf4 {[%emt 0:00:00]} 2. Qe8# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1Q6/4p3/2Pp4/1K4N1/2NkP3/3P4/3B4/4n3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ne5 {[%emt 0:00:00]} Nxd3 {[%emt 0:00:00]} 2. Nef3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/4Q3/1KN1P3/3k2P1/3p4/P2p3p/7B/3N1B2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qb7 {[%emt 0:00:00]} Kxe6 {[%emt 0:00:00]} 2. Nxd4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "6B1/1KN2p1Q/2P5/4k3/R1p5/4P3/8/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ne8 {[%emt 0:00:00]} Kd5 {[%emt 0:00:00]} 2. Qf5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/2p5/1pK1P2N/1P2k1p1/1Q1Rr1B1/3pn3/3N1n2/2B1R3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qe7 {[%emt 0:00:00]} Kxd4 {[%emt 0:00:00]} 2. Bb2# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3N4/3PK3/br2p3/2k5/B2RPP2/1pBp4/1P1N4/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ba5 {[%emt 0:00:00]} Kxd4 {[%emt 0:00:00]} 2. Bxb6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/1n4Q1/2P1p1K1/4N3/3kP1nR/PBp3B1/2RNPP2/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ba4 {[%emt 0:00:00]} cxd2 {[%emt 0:00:00]} 2. Rc4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "bN1R4/8/Q3P1n1/2p5/2r1k1P1/1BP1P1K1/N2P4/4R3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nd7 {[%emt 0:00:00]} Kd5 {[%emt 0:00:00]} 2. e4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/3R3B/8/1N1b4/1PP2p1B/4kP2/1K1N2nR/1Qn5 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nd4 {[%emt 0:00:00]} Nxh4 {[%emt 0:00:00]} 2. Nc2# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4R1B1/4Bp2/1N6/3pk3/1P5N/3P2K1/8/2R5 w - - 0 1"]
+[PlyCount "3"]
+
+1. Rd1 {[%emt 0:00:00]} Kd4 {[%emt 0:00:00]} 2. Bf6# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/1B2p3/2pB3Q/3k3K/2p1p3/3p4/4N3/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bc8 {[%emt 0:00:05]} exd6 {[%emt 0:00:01]} 2. Qg5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/3p4/3n4/N1Np1p2/1QPk1b1R/P7/2K2P2/6B1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qb8 {[%emt 0:00:00]} Kxc5 {[%emt 0:00:00]} 2. Qa7# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/2pB4/8/2Pk2K1/3BRP2/3n2pR/3NN3/1n6 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bg1 {[%emt 0:00:00]} Nxd2 {[%emt 0:00:00]} 2. Nc3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3N1Q2/4p3/5N2/2p1k3/R1p5/4PP2/4K3/2B5 w - - 0 1"]
+[PlyCount "3"]
+
+1. e4 {[%emt 0:00:00]} exf6 {[%emt 0:00:00]} 2. Qxc5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4N1N1/1K6/8/3k4/2p5/P1Q3P1/8/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ng7 {[%emt 0:00:01]} Kd6 {[%emt 0:00:00]} 2. Qd4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/n7/5Q2/1PR3K1/4p1p1/n2Bk1P1/4P3/1N4R1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qb6 {[%emt 0:00:00]} exd3 {[%emt 0:00:00]} 2. Re5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/2N5/5Q1K/5p2/1P2k3/1p6/1N1n1pPP/2Br1n2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nb5 {[%emt 0:00:00]} Rxc1 {[%emt 0:00:00]} 2. Qd4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "7B/8/1K6/4bPp1/3k1NpQ/4p3/1P1N1P1p/3R4 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ra1 {[%emt 0:00:01]} gxh4 {[%emt 0:00:00]} 2. Ra4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/Np6/1r1R4/B2n2Pb/1p1kp3/1PR5/2P1P1pQ/4K1N1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Kd1 {[%emt 0:00:00]} Rxd6 {[%emt 0:00:00]} 2. Nb5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/3n2K1/8/2p5/Q3N1B1/2Bkpb1R/4p1R1/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qb3 {[%emt 0:00:00]} Bxg2 {[%emt 0:00:00]} 2. Nf2# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/1N4B1/B3pP2/K2n4/2Pk1n1R/2p3N1/2P2P2/1R6 w - - 0 1"]
+[PlyCount "3"]
+
+1. Rb5 {[%emt 0:00:01]} Kxc4 {[%emt 0:00:00]} 2. Rb4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1b4b1/2pp1n2/N4K2/1B1k2P1/3Ppp2/BP6/6P1/3R1N1Q w - - 0 1"]
+[PlyCount "3"]
+
+1. Qh5 {[%emt 0:00:01]} f3 {[%emt 0:00:00]} 2. Ne3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/K2QN3/4p1N1/2pb1r2/3k1PR1/3n1B2/1P3P2/3R2B1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Be2 {[%emt 0:00:00]} Ke4 {[%emt 0:00:01]} 2. f3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4n3/5B2/2n1P2R/1RPkPrr1/K4bp1/1P1N1PP1/2N5/5Q2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qg2 {[%emt 0:00:00]} gxf3 {[%emt 0:00:00]} 2. Qxf3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2Q1K3/2N1p3/4R2B/p1r2k2/n7/2P4P/n7/1b6 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qb7 {[%emt 0:00:00]} N2xc3 {[%emt 0:00:00]} 2. Qf3# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/1K1p1p2/4kP2/6B1/4NP2/2P5/2B1R3/Q7 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qh1 {[%emt 0:00:00]} d6 {[%emt 0:00:00]} 2. Nc5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/6p1/6Q1/1K2k1P1/6P1/3pr3/B2N4/6B1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qf7 {[%emt 0:00:00]} Kd4 {[%emt 0:00:00]} 2. Qxg7# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4N3/8/4pp2/2Q3N1/K4kr1/6p1/6PR/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ng7 {[%emt 0:00:00]} gxh2 {[%emt 0:00:00]} 2. Nh5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/1K2B3/6P1/4krPN/3R4/3pp2B/1P6/Q7 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nf6 {[%emt 0:00:00]} Rxg5 {[%emt 0:00:00]} 2. Re4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "5Q2/6p1/n5B1/r2P4/P2k1PR1/N3N2R/8/7K w - - 0 1"]
+[PlyCount "3"]
+
+1. Rg2 {[%emt 0:00:00]} Rxa4 {[%emt 0:00:00]} 2. Nb5# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1B5K/2np1QP1/3P4/4k3/RN1bP3/7p/1N1R2rp/7B w - - 0 1"]
+[PlyCount "3"]
+
+1. Na6 {[%emt 0:00:00]} Nxa6 {[%emt 0:00:00]} 2. Qf5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4R3/K2N4/B1P2p1B/2P1p1b1/Qn1pk1P1/R3P3/N5P1/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Rd3 {[%emt 0:00:00]} Nxd3 {[%emt 0:00:00]} 2. Qxd4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "6Qn/5p1r/2Pp4/2pkP3/3N2R1/KP3n2/B3R1N1/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qa8 {[%emt 0:00:00]} Nxd4 {[%emt 0:00:00]} 2. Nf4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "b2qN3/2R5/Q4P2/2Bk1Pp1/n1pP1n2/3p1PN1/8/KB6 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ne2 {[%emt 0:00:00]} dxe2 {[%emt 0:00:00]} 2. Be4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1B6/1Q6/1KN3p1/3kn1pR/1P6/3P1n1B/4bN2/3R4 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ka6 {[%emt 0:00:00]} Nxc6 {[%emt 0:00:00]} 2. Qd7# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2R3B1/1R2QN2/2rrpP2/2P5/2Pk2P1/3p4/1P1N1K2/2B5 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ng5 {[%emt 0:00:00]} Rxc8 {[%emt 0:00:00]} 2. Qxd6# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "Q1B5/8/3p4/3N1p2/2p1kP2/2n1B3/2R3K1/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qa3 {[%emt 0:00:00]} Nxd5 {[%emt 0:00:00]} 2. Rxc4# {[%emt 0:00:00]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "B7/2N2N2/2p5/1p4P1/1Rnnkb1R/3p4/Q2P2P1/B6K w - - 0 1"]
+[PlyCount "3"]
+
+1. Qb3 {[%emt 0:00:01]} Nxb3 {[%emt 0:00:01]} 2. Nd6# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3B4/6n1/4p3/3Rp3/3Nkp1R/1B6/3P1K2/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nf5 {[%emt 0:00:01]} exd5 {[%emt 0:00:01]} 2. Bc2# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1Q6/3Kp3/1PppB3/6nR/P1Nk2p1/6P1/2P5/3NB3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nd2 {[%emt 0:00:01]} Nxe6 {[%emt 0:00:01]} 2. Bf2# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2B5/8/1N2p3/1N5K/4k3/1P2p1P1/4P3/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nd7 {[%emt 0:00:01]} Kd5 {[%emt 0:00:00]} 2. Bb7# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1K6/3p4/1Rb2N2/P1kp1PQ1/3R1P2/1p3N2/1P2P3/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nd2 {[%emt 0:00:01]} Kxd4 {[%emt 0:00:01]} 2. Qg1# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4b1Q1/3N4/4n3/N1Bk4/4n3/1Pr4R/2P3B1/3K4 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bh1 {[%emt 0:00:01]} Rxh3 {[%emt 0:00:01]} 2. c4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "b5N1/1R3n2/R3p3/3k2p1/8/B1P2PK1/6B1/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Rc6 {[%emt 0:00:01]} Bxb7 {[%emt 0:00:01]} 2. f4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "6Q1/2N1Rp2/4bP2/2p2n2/R1pk1B2/1P3n2/2P5/2K4B w - - 0 1"]
+[PlyCount "3"]
+
+1. Qh7 {[%emt 0:00:01]} Nxe7 {[%emt 0:00:01]} 2. Qd3# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/N2N4/1Q1p3K/8/2P2P2/2k1p3/1R2B3/n7 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nc5 {[%emt 0:00:01]} dxc5 {[%emt 0:00:01]} 2. Qf6# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4R3/pK4Q1/B2p4/3pnP1p/N2k1p1p/N6n/2P2PP1/6B1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qg5 {[%emt 0:00:01]} Nxg5 {[%emt 0:00:01]} 2. f3# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4N1b1/2p2p2/2N4K/r2n1k2/p7/4pPP1/Q3B3/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ba6 {[%emt 0:00:01]} Rxa6 {[%emt 0:00:01]} 2. Qxd5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/Q3p3/1n2P3/B3kNP1/1P2n3/4R1P1/B2NK3/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nd4 {[%emt 0:00:01]} Kxd4 {[%emt 0:00:01]} 2. Nf3# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4Q3/2pP1N2/1p6/3p2p1/B1kp1bR1/B3R1pK/4P1N1/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qe5 {[%emt 0:00:01]} Bxe5 {[%emt 0:00:00]} 2. Nxe5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3B2K1/1P6/QR1p2NR/5k2/2N3p1/6p1/3PP1n1/7B w - - 0 1"]
+[PlyCount "3"]
+
+1. Qa4 {[%emt 0:00:01]} Nf4 {[%emt 0:00:01]} 2. Nh4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1B6/8/3N3Q/2rPp3/R1Pk3P/2b4N/2P5/3B2K1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nf4 {[%emt 0:00:01]} exf4 {[%emt 0:00:01]} 2. Qxf4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2R5/8/2b2N2/P2pP2R/2rk3b/2n2K2/1Q2BP2/6B1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Kg2 {[%emt 0:00:01]} Ba8 {[%emt 0:00:01]} 2. Qd2# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4K3/3R1N2/7R/3B1p2/1Pbk1r2/8/2P4B/3N1n2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Rh4 {[%emt 0:00:01]} Rxh4 {[%emt 0:00:01]} 2. Be5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3N3K/8/1N1P4/4kP2/1P6/8/3B4/1B6 w - - 0 1"]
+[PlyCount "3"]
+
+1. f6 {[%emt 0:00:01]} Kxd6 {[%emt 0:00:01]} 2. Bf4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "rN6/p4p2/P4P2/4k1pP/RB1N2B1/1K6/2P5/3R4 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bc3 {[%emt 0:00:01]} Rxb8+ {[%emt 0:00:01]} 2. Nb5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/8/2n1p2B/1NpRpP2/2p1kp1R/1B2N3/2P1P2p/1Q5K w - - 0 1"]
+[PlyCount "3"]
+
+1. Ng4 {[%emt 0:00:01]} exd5 {[%emt 0:00:01]} 2. c3# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/1NBn4/8/Rb1p4/3k1P2/3P2p1/1K2P2b/4Q3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nd6 {[%emt 0:00:01]} Ke3 {[%emt 0:00:01]} 2. Nf5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "Q7/8/P2Np3/2Pp4/RK3PP1/3kp1bR/3p3p/3B3N w - - 0 1"]
+[PlyCount "3"]
+
+1. Nf5 {[%emt 0:00:01]} exf5 {[%emt 0:00:01]} 2. Qxd5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2B2N2/2Kp4/2P4P/Rb1pk3/1B3p2/8/5N2/3Q4 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qg4 {[%emt 0:00:01]} dxc6 {[%emt 0:00:01]} 2. Qg7# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/2K4p/4p1p1/2p1k2r/2PNp2B/1P4P1/5Pn1/Q3N3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qa8 {[%emt 0:00:01]} Nxh4 {[%emt 0:00:01]} 2. Qh8# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "5K2/p7/Q3B3/4P1p1/3knbR1/R5p1/6P1/N3B3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Re3 {[%emt 0:00:01]} Bxe3 {[%emt 0:00:01]} 2. Qd6# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "6K1/8/1P3B2/P1pk1N1R/P3N1pR/8/1P2P1B1/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bc3 {[%emt 0:00:01]} Kc4 {[%emt 0:00:01]} 2. Nd2# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4N1B1/N3R3/P1p5/2k5/1n4nQ/2B5/R3K3/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Re6 {[%emt 0:00:01]} Nxa2 {[%emt 0:00:01]} 2. Rxc6# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "5N2/Q1n1pp2/1N5P/b1P1knR1/4p3/2P3P1/8/B3K2B w - - 0 1"]
+[PlyCount "3"]
+
+1. Rh5 {[%emt 0:00:01]} Bxb6 {[%emt 0:00:01]} 2. c4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "B2R3B/3P4/2n1bn2/1N1k4/6p1/1PP1R1P1/2Q5/1K6 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qf2 {[%emt 0:00:01]} Nxd7 {[%emt 0:00:01]} 2. Re5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1Q6/7p/p2pp2p/Rn1PB1nR/4k1N1/2p4P/2PPN1K1/1B6 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qc7 {[%emt 0:00:01]} Nxc7 {[%emt 0:00:01]} 2. Ng3# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/1B3r2/4P2N/5p2/P2p1kNP/5p2/2QK2n1/4B3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Kc1 {[%emt 0:00:01]} Nxe1 {[%emt 0:00:01]} 2. Qh2# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "n3N2B/1n6/1R2P2p/2Pk1pbQ/1K1p1P2/8/3PN1b1/1B6 w - - 0 1"]
+[PlyCount "3"]
+
+1. Kb5 {[%emt 0:00:01]} Nxb6 {[%emt 0:00:01]} 2. Nc7# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1K3Qn1/4p3/7p/2BpkP1B/7P/2P3N1/5n1P/2N2R2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qd8 {[%emt 0:00:01]} Nh1 {[%emt 0:00:01]} 2. Bd4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1B4KN/1pNB4/1Rp2P2/4k3/1P1p3P/3P1b1P/8/5R2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bg4 {[%emt 0:00:01]} Bxg4 {[%emt 0:00:01]} 2. Nf7# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/Q7/3p2pb/1bNPN2p/3kPn1R/Kn6/1P2PP2/5BB1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qe7 {[%emt 0:00:01]} dxc5 {[%emt 0:00:01]} 2. f3# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "Q6n/2NR2p1/2RN4/K3k3/8/p1p3P1/Pn2B3/B7 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bd3 {[%emt 0:00:01]} Nxd3 {[%emt 0:00:01]} 2. Bxc3# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2R5/1N6/2n1p3/3k4/P3r3/4PQ2/1K6/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qg2 {[%emt 0:00:01]} Ne5 {[%emt 0:00:01]} 2. Rc5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2NbN3/p1PBP1p1/1p3p2/n2k2n1/3p4/1PR1RPB1/3K4/3Q4 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bd6 {[%emt 0:00:01]} f5 {[%emt 0:00:01]} 2. Re5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/4p1B1/6p1/1PP1R1p1/1N1k2B1/2r2pP1/1K1N1p2/Q4R2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bf8 {[%emt 0:00:01]} Kxe5 {[%emt 0:00:01]} 2. Bg7# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1Q1N4/2p1K3/2P4p/2kp1p2/bp5R/1R1P4/n4P2/N5B1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Rh5 {[%emt 0:00:01]} Nc1 {[%emt 0:00:01]} 2. Qxb4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "7B/3pp3/4R3/RPpk1PQ1/8/3r3p/4P2K/3N1B2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qg8 {[%emt 0:00:01]} dxe6 {[%emt 0:00:01]} 2. Qxe6# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2R2bb1/3Q4/2pP2N1/R1PkBp2/4n2K/1P2prp1/n1N1P1B1/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bf6 {[%emt 0:00:01]} Nxf6 {[%emt 0:00:01]} 2. Qxf5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3K1Bb1/2p1p3/3kp2R/P5N1/8/N3P3/6B1/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Rh5 {[%emt 0:00:01]} Ke5 {[%emt 0:00:01]} 2. Ne4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3N1K2/B7/4P3/1Nrpk1P1/1Qn1P3/6P1/2P2P2/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nd6 {[%emt 0:00:01]} Nxd6 {[%emt 0:00:01]} 2. f4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1nBR1N2/3n1P2/p1p3pN/R1p1k1B1/2P5/1P3P2/4K3/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ng8 {[%emt 0:00:01]} Nxf8 {[%emt 0:00:01]} 2. Rxc5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4N2K/2R4B/4p3/3rk1p1/3rPp2/1pR3P1/1QP4B/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. R7c5 {[%emt 0:00:01]} Rxc5 {[%emt 0:00:01]} 2. Rxc5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1BB5/5Q2/3p1p2/4Rpp1/4Nk2/2P5/3P1PnK/4N1R1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nc5 {[%emt 0:00:01]} fxe5 {[%emt 0:00:01]} 2. Qxf5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/3p1p2/NK5p/3Bk2P/4Pr2/B3p1Q1/8/4N3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nb8 {[%emt 0:00:01]} f5 {[%emt 0:00:01]} 2. Qg7# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "6Q1/1Nn5/2p1rp2/2p5/2r1k2P/2PN3K/4PP2/1B2R3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ba2 {[%emt 0:00:01]} Rxc3 {[%emt 0:00:01]} 2. Qg4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/8/2R1P3/5p2/3k1B2/1B6/4P3/4K3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Rb6 {[%emt 0:00:01]} Ke4 {[%emt 0:00:00]} 2. Rb4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2b1B3/2pp4/5PnN/R1Pkp3/4p1Q1/1P6/2N5/3K4 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ng8 {[%emt 0:00:01]} Nf4 {[%emt 0:00:01]} 2. Ne7# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3Rb3/1Ppn4/4P3/2Nkr1p1/Q3N1P1/2P1bR2/5p2/5K1B w - - 0 1"]
+[PlyCount "3"]
+
+1. Qa6 {[%emt 0:00:01]} Bxc5 {[%emt 0:00:01]} 2. Nf6# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/K7/5p1R/4N3/Q1bkp3/3N3B/1P1n1P2/6B1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bg2 {[%emt 0:00:01]} exd3 {[%emt 0:00:01]} 2. f4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2N2Q2/7B/r1PPb3/1p1k1p2/1PR5/8/2NK3B/3n4 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qg8 {[%emt 0:00:01]} Bxg8 {[%emt 0:00:01]} 2. Bxg8# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2R5/2n5/Q3p3/b1kp4/1R3N2/p2B4/n2P3K/1br1B3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Bc2 {[%emt 0:00:01]} Nxb4 {[%emt 0:00:01]} 2. Nxe6# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2R2N2/1Qn5/4p3/b1kp2K1/rR6/p7/n1PP1NB1/1q2B3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qa6 {[%emt 0:00:01]} Nxb4 {[%emt 0:00:01]} 2. Nxe6# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3R1Q2/3p2p1/3rp3/8/PpNkP3/3P2b1/3BP3/2K5 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ne5 {[%emt 0:00:01]} Bxe5 {[%emt 0:00:01]} 2. Qf2# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "7Q/3p4/B1P5/N3P3/b2krN2/5P1K/3B4/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qb8 {[%emt 0:00:01]} Kc5 {[%emt 0:00:01]} 2. Qa7# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "K7/1p1p4/Npk5/5p2/P4P1n/3R1PQ1/8/8 w - - 0 1"]
+[PlyCount "5"]
+
+1. Qxh4 {[%emt 0:00:01]} d5 {[%emt 0:00:01]} 2. Qe7 {[%emt 0:00:01]} bxa6 {
+[%emt 0:00:01]} 3. Rc3# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/4p3/1R2b2K/4k3/3p4/3p1P2/3Q4/6R1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Rc1 {[%emt 0:00:01]} Bf5 {[%emt 0:00:01]} 2. Rc5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "bnQ3N1/r1P1q3/p3NP2/8/RP2kBP1/K2p4/BP3rPn/5R2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qe8 {[%emt 0:00:01]} Qxe8 {[%emt 0:00:01]} 2. b5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3Nb3/r3P1p1/R1pkp1P1/Bp5R/1p1p3Q/1K1N4/6B1/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ne5 {[%emt 0:00:01]} Rxa6 {[%emt 0:00:01]} 2. Nb7# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "B3K3/8/p1n1p3/PRnkp2Q/pB4P1/N3P3/2P5/3N4 w - - 0 1"]
+[PlyCount "3"]
+
+1. Rb7 {[%emt 0:00:01]} Nxb7 {[%emt 0:00:01]} 2. Nc3# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4R3/p1K3N1/2pp3p/3k2bQ/1RN5/p7/P1n1PP1P/BB2n3 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ne6 {[%emt 0:00:01]} Nxb4 {[%emt 0:00:01]} 2. Ne3# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/4PpN1/2pkBP2/P7/3N4/3R1P2/2Q4K/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qb2 {[%emt 0:00:01]} Kc7 {[%emt 0:00:01]} 2. Ne8# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "6B1/3N3p/7B/p3P1p1/Rp1nk3/3R2P1/8/1Q1K4 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qc2 {[%emt 0:00:01]} Nxc2 {[%emt 0:00:01]} 2. Bxh7# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/3p4/3p4/p1P5/K2k1N1R/1P1N4/2BB1P2/3R4 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ne5 {[%emt 0:00:01]} dxe5 {[%emt 0:00:00]} 2. Bb4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2B2R2/4pP2/4p3/3N1k1b/8/3K1Np1/1Q6/5R2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qh8 {[%emt 0:00:01]} Bxf3 {[%emt 0:00:01]} 2. Qh5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2RKR3/N2p2N1/2p1p3/3P4/1p1k1p2/1P1p1B2/3Q4/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Kxd7 {[%emt 0:00:01]} exd5 {[%emt 0:00:01]} 2. Qxb4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2B5/3n2K1/1Ppk1pN1/3n1R2/8/P5N1/7B/3Q4 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qb3 {[%emt 0:00:01]} N5xb6 {[%emt 0:00:01]} 2. Ne4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2N5/8/5p1Q/RK3P2/3k4/R1bN1Bp1/nB4n1/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Ne5 {[%emt 0:00:01]} Bxb2 {[%emt 0:00:01]} 2. Nc6# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "6r1/1p6/6p1/1Q2N3/3pk3/6PB/3P1b1r/1K3R2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nf3 {[%emt 0:00:01]} Rxh3 {[%emt 0:00:01]} 2. Ng5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4r3/5r2/2P1Rp2/4b3/2pk4/Q3NPP1/p1P1b3/4R1K1 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qa5 {[%emt 0:00:01]} Rd7 {[%emt 0:00:01]} 2. Nf5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3R2K1/5N2/B1P1n3/Q2b2P1/4knp1/p5P1/pr1P1R2/B4N2 w - - 0 1"]
+[PlyCount "3"]
+
+1. Be2 {[%emt 0:00:01]} Nxd8 {[%emt 0:00:01]} 2. Rxf4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "6B1/3N4/1pq1P3/pP1kN3/Qn1P1R2/3R1K2/2P4B/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nc4 {[%emt 0:00:01]} Nxd3 {[%emt 0:00:01]} 2. Nf6# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4B3/4p3/1K2p2P/3pkp2/1B1RpR1P/4p3/1N2P2N/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Be1 {[%emt 0:00:01]} Kxd4 {[%emt 0:00:01]} 2. Nf3# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "B7/8/2PpP3/2Bkp2Q/2pPp3/8/8/K7 w - - 0 1"]
+[PlyCount "3"]
+
+1. Qf7 {[%emt 0:00:01]} e3 {[%emt 0:00:01]} 2. c7# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "B3R3/2p5/2RP4/2pknp2/5p2/1PK5/3N4/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nc4 {[%emt 0:00:01]} Ng4 {[%emt 0:00:01]} 2. Rxc7# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "B6B/3R4/3b4/1nN1pP2/p2k4/1P5K/8/2Q5 w - - 0 1"]
+[PlyCount "3"]
+
+1. Rg7 {[%emt 0:00:01]} Bb8 {[%emt 0:00:01]} 2. Rg4# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3N4/1Bp3B1/1pq1RN2/1pk5/1p3P2/1P3p2/5K2/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Rd6 {[%emt 0:00:01]} Qe8 {[%emt 0:00:01]} 2. Rd5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "6N1/3B2p1/1P3bP1/2pkp3/2p5/2Q2p2/1P3P1B/K7 w - - 0 1"]
+[PlyCount "3"]
+
+1. b3 {[%emt 0:00:01]} cxb3 {[%emt 0:00:01]} 2. Qd3# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/3N4/3PP3/1p1k1K2/1p6/1N1p3p/B2P3B/8 w - - 0 1"]
+[PlyCount "3"]
+
+1. Kg4 {[%emt 0:00:01]} Kxe6 {[%emt 0:00:00]} 2. Nbc5# {[%emt 0:00:01]} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baird"]
+[Black "Composition"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/8/PpPNP1P1/1N1k2K1/3P4/8/4P3/1R6 w - - 0 1"]
+[PlyCount "3"]
+
+1. Nf5 {[%emt 0:00:01]} Kxc6 {[%emt 0:00:01]} 2. Ne7# {[%emt 0:00:01]} 0-1
+

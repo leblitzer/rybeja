@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="rybeja.android.chess"
     android:installLocation="auto"
-    android:versionCode="159"
-    android:versionName="8.9.5">
+    android:versionCode="160"
+    android:versionName="8.9.6">
 
     <supports-screens
         android:anyDensity="true"

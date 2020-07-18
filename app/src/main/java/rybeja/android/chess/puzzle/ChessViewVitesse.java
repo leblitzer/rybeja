@@ -124,7 +124,7 @@ public class ChessViewVitesse extends UI {
         switch (bundleTypePosition) { // YBO 01/07/2020
             case R.string.start_vitesse:
                 aPuzzleProvider = MyPuzzleProvider.CONTENT_URI_VITESSE;
-                aFileName = "fic06_vitesse.txt";
+                aFileName = "fic07_vitesse.txt";
                 aTypeFenOrPgn = R.integer.type_fen;
                 break;
         }
