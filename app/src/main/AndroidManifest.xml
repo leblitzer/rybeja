@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- YBO : 04/11//2020 : Polgar #2 #1374(#1681) Kb1 => Kb2 -->
+<!-- YBO : 07/12/2020 : CTSW 3222 prise en passant -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="rybeja.android.chess"
     android:installLocation="auto"

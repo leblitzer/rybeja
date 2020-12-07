@@ -28710,10 +28710,10 @@
 [Black "?"]
 [Result "0-1"]
 [SetUp "1"]
-[FEN "8/pp3p2/2n1b3/4k3/4PPp1/1P2K3/P2NB1Pr/6R1 b - - 0 1"]
+[FEN "8/pp3p2/2n1b3/4k3/4PPp1/1P2K3/P2NB1Pr/6R1 b - f3 0 1"]
 [PlyCount "0"]
 
-{Error reading move: g4f3}  0-1
+1... gxf3 2. Nxf3+
 
 [Event "1335 02173"]
 [Site "?"]
@@ -41882,7 +41882,7 @@
 [FEN "1k1n1r1r/ppp1bp2/4q1pp/PP1pP3/3P4/1NPQ4/3B2PP/4RRK1 b - - 0 1"]
 [PlyCount "1"]
 
-1... f5 {Error reading move: f5f6} 0-1
+1... f5 2. exf6 0-1
 
 [Event "1425 03696"]
 [Site "?"]
@@ -46757,7 +46757,7 @@
 [FEN "r1b2rk1/1ppn2bp/p2p2p1/3Pp1Bq/2P1Pp1P/5P2/PP1QN1P1/RB3RK1 b - - 0 1"]
 [PlyCount "2"]
 
-1... h6 2. g4 {Error reading move: g4g3} 0-1
+1... h6 2. g4 fxg3 0-1
 
 [Event "1459 43566"]
 [Site "?"]
