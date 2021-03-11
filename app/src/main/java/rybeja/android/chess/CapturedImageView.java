@@ -37,6 +37,7 @@ public class CapturedImageView extends View {
 
         AssetManager am = this.getContext().getAssets();
         String sFolder = "highres/";
+
         try {
             _bitMap = BitmapFactory.decodeStream(am.open(sFolder + sPiece));
             //Log.i("CapturedImageView", "initBitmap " + sFolder + sPiece);

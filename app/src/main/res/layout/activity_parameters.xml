@@ -31,6 +31,14 @@
         android:hint="@string/s_total_time"
         android:inputType="textPersonName" />
 
+    <EditText
+        android:id="@+id/et_design_pieces"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/s_design_pieces"
+        android:inputType="textPersonName" />
+
     <Button
         android:id="@+id/b_save"
         android:layout_width="match_parent"

@@ -6,16 +6,16 @@ android {
             storeFile file('/Users/jcarolus/Projecten/Chess/android-keystore')
         }
     }
-    compileSdkVersion 28
-    //YBO compileSdkVersion 29  //YBO
-    buildToolsVersion '28.0.3'
-    //buildToolsVersion '29.0.2'  //YBO
+    // compileSdkVersion 28 // YBO 11/03/2021
+    compileSdkVersion 29  //YBO
+    // buildToolsVersion '28.0.3'
+    buildToolsVersion '29.0.2'  //YBO
     defaultConfig {
         // YBO 08/05/2020 applicationId "jwtc.android.chess"
         applicationId "rybeja.android.chess"  // YBO 08/05/2020
         minSdkVersion 14
-        targetSdkVersion 28
-        //targetSdkVersion 29  //YBO
+        // targetSdkVersion 28 // YBO 11/03/2021
+        targetSdkVersion 29  //YBO
     }
     buildTypes {
         release {

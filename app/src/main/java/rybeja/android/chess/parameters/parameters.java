@@ -16,7 +16,9 @@ import rybeja.android.chess.R;
 /**
  * Activity for reading data from an NDEF Tag.
  *
- * @author YBO    : 08/02/2020 : Création
+ * @author YBO
+ * 08/02/2020 : Création
+ * 11/03/2021 / Ajout design piece
  */
 //----------------------------------------------------------------------------
 
@@ -25,6 +27,7 @@ public class parameters extends MyBaseActivity {
     private EditText et_number_puzzle;
     private EditText et_elo;
     private EditText et_total_time;
+    private EditText et_design_pieces; // YBO 11/03/2021
     private Button b_save;
     protected SharedPreferences prefs;
     protected SharedPreferences.Editor editor; // YBO 08/02/2020
@@ -33,6 +36,7 @@ public class parameters extends MyBaseActivity {
     private String aSMixedPos; // YBO 20/04/2020
     private String aSMixedElo; // YBO 20/04/2020
     private String aSMixedTicks; // YBO 20/04/2020
+    private String aSDesignPieces; // YBO 11/03/2020
     //----------------------------------------------------------------------------
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -49,6 +53,7 @@ public class parameters extends MyBaseActivity {
         et_number_puzzle = (EditText) findViewById(R.id.et_number_puzzle);
         et_elo = (EditText) findViewById(R.id.et_elo);
         et_total_time = (EditText) findViewById(R.id.et_total_time);
+        et_design_pieces = (EditText) findViewById(R.id.et_design_pieces);
         b_save = (Button) findViewById(R.id.b_save);
         resources = this.getResources();
         prefs = this.getSharedPreferences(resources.getString(R.string.s_chess_player), Context.MODE_PRIVATE);
@@ -56,9 +61,11 @@ public class parameters extends MyBaseActivity {
         aSMixedPos = resources.getString(R.string.s_mixed_pos)+_bundleTypePosition;
         aSMixedElo = resources.getString(R.string.s_mixed_elo)+_bundleTypePosition;
         aSMixedTicks =resources.getString(R.string.s_mixed_ticks)+_bundleTypePosition;
+        aSDesignPieces = resources.getString(R.string.s_design_pieces);
         et_number_puzzle.setText("" + (1 + prefs.getInt(aSMixedPos,0)));
         et_elo.setText("" + prefs.getInt(aSMixedElo, 0));
         et_total_time.setText( "" + prefs.getInt(aSMixedTicks, 0));
+        et_design_pieces.setText("" + prefs.getInt(aSDesignPieces, 0));
         b_save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -89,6 +96,8 @@ public class parameters extends MyBaseActivity {
         if(i>=0){ editor.putInt(aSMixedElo, i); }
         i = getInteger(et_total_time );
         if(i>=0){ editor.putInt(aSMixedTicks, i); }
+        i = getInteger(et_design_pieces );
+        if(i>=0){ editor.putInt(aSDesignPieces, i); }
         editor.commit();
     }
     //----------------------------------------------------------------------------

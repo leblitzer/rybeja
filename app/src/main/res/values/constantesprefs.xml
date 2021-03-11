@@ -11,8 +11,10 @@
     <string name="s_mixed_pos" translatable="false">practicePos</string><!-- YBO 20/04/2020 -->
     <string name="s_mixed_elo" translatable="false">practiceElo</string><!-- YBO 20/04/2020 -->
     <string name="s_mixed_ticks" translatable="false">practiceTicks</string><!-- YBO 20/04/2020 -->
+    <string name="s_design_pieces" translatable="false">Pieces design</string><!-- YBO 11/03/2021 -->
+    <string name="s_image_folder_design_pieces_color" translatable="false">"highres/"</string><!-- YBO 11/03/2021 -->
+    <string name="s_image_folder_design_pieces_normal" translatable="false">"highres2/"</string><!-- YBO 11/03/2021 -->
     <string name="s_save" translate="false">Save</string>
-
     <string name="bundle_type_position">bundle_type_position</string>
 
     <integer name="type_fen">0</integer>

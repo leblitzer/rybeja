@@ -13,6 +13,7 @@ import rybeja.chess.board.ChessBoard;
 import android.app.Activity;
 import android.content.SharedPreferences;
 import android.content.res.AssetManager;
+import android.content.res.Resources;
 import android.graphics.BitmapFactory;
 import android.graphics.Rect;
 import android.util.Log;
@@ -138,8 +139,16 @@ public class ChessViewBase{
 		AssetManager am = _activity.getAssets();
 		SharedPreferences prefs = _activity.getSharedPreferences("ChessPlayer", Activity.MODE_PRIVATE);
 
-		//String sFolder = prefs.getString("pieceSet", "highres") + "/";
-        String sFolder = "highres/";
+		Resources resources = _activity.getResources();// YBO 11/03/2021
+		String sDesignPieces = resources.getString(R.string.s_design_pieces); // YBO 11/03/2021
+		int sIntFolder = prefs.getInt(sDesignPieces, 0) ; // YBO 11/03/2021
+		String sFolder; // YBO 11/03/2021
+		if( sIntFolder == 0){
+			sFolder = resources.getString(R.string.s_image_folder_design_pieces_normal);
+		}else{
+			sFolder = resources.getString(R.string.s_image_folder_design_pieces_color);
+		}
+
 		String sPat  	= prefs.getString("tileSet", "");
 
 		try{

@@ -34,6 +34,9 @@ import rybeja.android.chess.tools.pgntool;
  * YBO : 29/06/2020 : Ajout des brdmatin3
  * YBO : 01/07/2020 : Ajout de Vitesse et modifier R.array.start_menu
  * YBO : 18/07/2020 : Ajout de brdmatin2
+ * YBO : 27/07/2020 : Rxa6 -> Bc6 dans le pgn plg mat en 2
+ * YBO : 09/03/2020 : CTSW prise en passant ajouté #2209
+ * YBO : 11/03/2021 : Ajout design pieces
  */
 
 public class start extends Activity {
