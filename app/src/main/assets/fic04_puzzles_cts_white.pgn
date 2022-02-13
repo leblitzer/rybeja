@@ -46757,7 +46757,7 @@
 [FEN "r1b2rk1/1ppn2bp/p2p2p1/3Pp1Bq/2P1Pp1P/5P2/PP1QN1P1/RB3RK1 b - - 0 1"]
 [PlyCount "2"]
 
-1... h6 2. g4 fxg3 0-1
+1... h6 2. g4 fxg3 Nxg3 0-1
 
 [Event "1459 43566"]
 [Site "?"]

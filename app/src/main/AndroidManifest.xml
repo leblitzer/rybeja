@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- YBO : 04/11//2020 : Polgar #2 #1374(#1681) Kb1 => Kb2 -->
 <!-- YBO : 07/12/2020 : CTSW 3222 prise en passant -->
+<!-- YBO : 13/02/2022 : 162 : fic04 [Event "1459 52634"] Ajout de Nxg3 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="rybeja.android.chess"
     android:installLocation="auto"
-    android:versionCode="161"
-    android:versionName="8.9.7">
+    android:versionCode="162"
+    android:versionName="8.9.8">
 
     <supports-screens
         android:anyDensity="true"

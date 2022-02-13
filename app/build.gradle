@@ -15,7 +15,7 @@ android {
         applicationId "rybeja.android.chess"  // YBO 08/05/2020
         minSdkVersion 14
         // targetSdkVersion 28 // YBO 11/03/2021
-        targetSdkVersion 29  //YBO
+        targetSdkVersion 30  // YBO 13/02/2022 29->30
     }
     buildTypes {
         release {
