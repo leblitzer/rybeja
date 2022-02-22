@@ -45,4 +45,10 @@
         android:layout_height="wrap_content"
         android:text="@string/s_save" />
 
+    <Button
+        android:id="@+id/b_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/s_reset" />
+
 </LinearLayout>

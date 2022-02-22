@@ -67,6 +67,7 @@ public class ChessViewVitesse extends UI {
     private String aSMixedPos; // YBO 20/04/2020
     private String aSMixedElo; // YBO 20/04/2020
     private String aSMixedTicks; // YBO 20/04/2020
+    private String aSReset; // YBO 20/02/2022
     // FIN YBO 02/04/2020
     protected ContentResolver _cr;
     protected SharedPreferences _prefs; // YBO 27/01/2020
@@ -120,6 +121,7 @@ public class ChessViewVitesse extends UI {
         aSMixedPos = aResources.getString(R.string.s_mixed_pos) + aBundleTypePosition;
         aSMixedElo = aResources.getString(R.string.s_mixed_elo) + aBundleTypePosition;
         aSMixedTicks =  aResources.getString(R.string.s_mixed_ticks) + aBundleTypePosition;
+        aSReset = aResources.getString(R.string.s_reset) + aBundleTypePosition; // YBO 20/02/2022
         //_parent.getContentResolver().delete(MyPuzzleProvider.CONTENT_URI_VITESSE, "", null);  // YBO 01/07/2020
         switch (bundleTypePosition) { // YBO 01/07/2020
             case R.string.start_vitesse:
@@ -445,6 +447,7 @@ public class ChessViewVitesse extends UI {
         }
         editor.putInt(aSMixedElo, _elo); // YBO 23/01/2020
         editor.putInt(aSMixedTicks, _ticks);
+        editor.putBoolean(aSReset, false); // YBO 20/02/2022
     }
 
     /*********************************************************************************************/
@@ -467,6 +470,10 @@ public class ChessViewVitesse extends UI {
 // YBO 03/04/2020
     private void OnResumePractice(final SharedPreferences prefs, final InputStream isExtra) {
         super.OnResume();
+        // YBO 20/02/2022
+        boolean b = _prefs.getBoolean(aSReset, false);
+        if(b){_parent.getContentResolver().delete(aPuzzleProvider,null,null);}
+        // FIN YBO
 
         ChessImageView._colorScheme = prefs.getInt("ColorScheme", 2);
 
@@ -480,7 +487,7 @@ public class ChessViewVitesse extends UI {
         if (_cursor != null) {
             _numTotal = _cursor.getCount();
             if (_numTotal == 0) { // YBO 01/07/2020 initbase
-                _tvPracticeMove.setText("Installing...");
+                _tvPracticeMove.setText("Installing...Vitesse...");
 
                 _progressDlg = ProgressDialog.show(_parent, _parent.getString(R.string.title_installing), _parent.getString(R.string.msg_wait), false, false);
 

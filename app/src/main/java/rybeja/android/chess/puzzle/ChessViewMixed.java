@@ -67,6 +67,7 @@ public class ChessViewMixed extends UI {
     private String aSMixedPos; // YBO 20/04/2020
     private String aSMixedElo; // YBO 20/04/2020
     private String aSMixedTicks; // YBO 20/04/2020
+    private String aSReset; // YBO 20/02/2022
     // FIN YBO 02/04/2020
     protected ContentResolver _cr;
     protected SharedPreferences _prefs; // YBO 27/01/2020
@@ -116,6 +117,7 @@ public class ChessViewMixed extends UI {
         aSMixedPos = aResources.getString(R.string.s_mixed_pos) + aBundleTypePosition;
         aSMixedElo = aResources.getString(R.string.s_mixed_elo) + aBundleTypePosition;
         aSMixedTicks =  aResources.getString(R.string.s_mixed_ticks) + aBundleTypePosition;
+        aSReset = aResources.getString(R.string.s_reset) + aBundleTypePosition; // YBO 20/02/2022
         switch (bundleTypePosition) {
             case R.string.start_mat_1:
                 aPuzzleProvider = MyPuzzleProvider.CONTENT_URI_MATINONE;
@@ -466,6 +468,8 @@ public class ChessViewMixed extends UI {
         }
         editor.putInt(aSMixedElo, _elo); // YBO 23/01/2020
         editor.putInt(aSMixedTicks, _ticks);
+        editor.putBoolean(aSReset, false); // YBO 20/02/2022
+
     }
 
     /*********************************************************************************************/
@@ -488,6 +492,10 @@ public class ChessViewMixed extends UI {
 // YBO 03/04/2020
     private void OnResumePractice(final SharedPreferences prefs, final InputStream isExtra) {
         super.OnResume();
+        // YBO 20/02/2022
+        boolean b = _prefs.getBoolean(aSReset, false);
+        if(b){_parent.getContentResolver().delete(aPuzzleProvider,null,null);}
+        // FIN YBO
 
         ChessImageView._colorScheme = prefs.getInt("ColorScheme", 2);
 
@@ -499,6 +507,8 @@ public class ChessViewMixed extends UI {
         _cursor = _parent.managedQuery(aPuzzleProvider, MyPuzzleProvider.COLUMNS, null, null, ""); // YBO 14/02/2020
 
         if (_cursor != null) {
+
+
             _numTotal = _cursor.getCount();
             if (_numTotal == 0) {
                 _tvPracticeMove.setText("Installing...");

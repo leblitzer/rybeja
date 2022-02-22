@@ -18,7 +18,8 @@ import rybeja.android.chess.R;
  *
  * @author YBO
  * 08/02/2020 : Création
- * 11/03/2021 / Ajout design piece
+ * 11/03/2021 : Ajout design piece
+ * 20/02/2022 : Bouton reset
  */
 //----------------------------------------------------------------------------
 
@@ -29,6 +30,7 @@ public class parameters extends MyBaseActivity {
     private EditText et_total_time;
     private EditText et_design_pieces; // YBO 11/03/2021
     private Button b_save;
+    private Button b_reset; // YBO 20/02/2022
     protected SharedPreferences prefs;
     protected SharedPreferences.Editor editor; // YBO 08/02/2020
     private Resources resources;
@@ -37,6 +39,7 @@ public class parameters extends MyBaseActivity {
     private String aSMixedElo; // YBO 20/04/2020
     private String aSMixedTicks; // YBO 20/04/2020
     private String aSDesignPieces; // YBO 11/03/2020
+    private String aSReset; // YBO 20/02/2022
     //----------------------------------------------------------------------------
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -55,6 +58,7 @@ public class parameters extends MyBaseActivity {
         et_total_time = (EditText) findViewById(R.id.et_total_time);
         et_design_pieces = (EditText) findViewById(R.id.et_design_pieces);
         b_save = (Button) findViewById(R.id.b_save);
+        b_reset = (Button) findViewById(R.id.b_reset); // YBO 20/02/2022
         resources = this.getResources();
         prefs = this.getSharedPreferences(resources.getString(R.string.s_chess_player), Context.MODE_PRIVATE);
         editor = prefs.edit();
@@ -62,6 +66,7 @@ public class parameters extends MyBaseActivity {
         aSMixedElo = resources.getString(R.string.s_mixed_elo)+_bundleTypePosition;
         aSMixedTicks =resources.getString(R.string.s_mixed_ticks)+_bundleTypePosition;
         aSDesignPieces = resources.getString(R.string.s_design_pieces);
+        aSReset = resources.getString(R.string.s_reset) + _bundleTypePosition; // YBO 20/02/2022
         et_number_puzzle.setText("" + (1 + prefs.getInt(aSMixedPos,0)));
         et_elo.setText("" + prefs.getInt(aSMixedElo, 0));
         et_total_time.setText( "" + prefs.getInt(aSMixedTicks, 0));
@@ -72,6 +77,12 @@ public class parameters extends MyBaseActivity {
                 saveEditor();
             }
         });
+        b_reset.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                resetBDTable();
+            }
+        }); // YBO 20/02/2022
     }
     //----------------------------------------------------------------------------
     @Override
@@ -98,6 +109,12 @@ public class parameters extends MyBaseActivity {
         if(i>=0){ editor.putInt(aSMixedTicks, i); }
         i = getInteger(et_design_pieces );
         if(i>=0){ editor.putInt(aSDesignPieces, i); }
+        editor.commit();
+    }
+    //----------------------------------------------------------------------------
+    // YBO 20/02/2022
+    private void resetBDTable(){
+        editor.putBoolean(aSReset, true);
         editor.commit();
     }
     //----------------------------------------------------------------------------

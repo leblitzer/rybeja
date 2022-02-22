@@ -15,6 +15,7 @@
     <string name="s_image_folder_design_pieces_color" translatable="false">"highres/"</string><!-- YBO 11/03/2021 -->
     <string name="s_image_folder_design_pieces_normal" translatable="false">"highres2/"</string><!-- YBO 11/03/2021 -->
     <string name="s_save" translate="false">Save</string>
+    <string name="s_reset" translate="false">Reset</string><!-- YBO 20/02/2022 -->
     <string name="bundle_type_position">bundle_type_position</string>
 
     <integer name="type_fen">0</integer>
