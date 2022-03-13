@@ -573,7 +573,10 @@ public class ChessViewVitesse extends UI {
 // YBO 03/04/2020
 private void OnResumePuzzle(final SharedPreferences prefs) {
     super.OnResume();
-
+    // YBO 22/02/2022
+    boolean b = _prefs.getBoolean(aSReset, false);
+    if(b){_parent.getContentResolver().delete(aPuzzleProvider,null,null);}
+    // FIN YBO
     ChessImageView._colorScheme = prefs.getInt("ColorScheme", 2);
 
     _view.setFlippedBoard(prefs.getBoolean("flippedBoard", false));

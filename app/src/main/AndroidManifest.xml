@@ -3,11 +3,12 @@
 <!-- YBO : 07/12/2020 : CTSW 3222 prise en passant -->
 <!-- YBO : 13/02/2022 : 162 : fic04 [Event "1459 52634"] Ajout de Nxg3 -->
 <!-- YBO : 20/02/2022 : 163 : ajout du reset -->
+<!-- YBO : 22/02/2022 : 164 : ajout du delete dans OnResumePuzzle  -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="rybeja.android.chess"
     android:installLocation="auto"
-    android:versionCode="163"
-    android:versionName="8.9.9">
+    android:versionCode="164"
+    android:versionName="8.9.10">
 
     <supports-screens
         android:anyDensity="true"
