@@ -18,8 +18,10 @@ import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.os.Vibrator;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
+// YBO 29/07/2023 import android.support.v4.app.ActivityCompat;
+// YBO 29/07/2023 import android.support.v4.content.ContextCompat;
+import androidx.core.app.ActivityCompat; // YBO 29/07/2023
+import androidx.core.content.ContextCompat; // YBO 29/07/2023
 import android.text.ClipboardManager;
 import android.util.Log;
 import android.view.*;

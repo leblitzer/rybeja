@@ -26,8 +26,10 @@ import android.database.Cursor;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
+// YBO 29/07/2023 import android.support.v4.app.ActivityCompat;
+// YBO 29/07/2023import android.support.v4.content.ContextCompat;
+import androidx.core.app.ActivityCompat; // YBO 29/07/2023
+import androidx.core.content.ContextCompat; // YBO 29/07/2023
 import android.util.Log;
 import android.view.*;
 import android.widget.AdapterView;

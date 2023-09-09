@@ -417,4 +417,9 @@
     <string name="toast_challenge_posted">Challenge posted</string>
     <string name="prefs_icsshowclocksummary">In the PGN, show the clock times on each move</string>
 
+    <string name="__manifest_unit_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="a__dmob_banner_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="manifest_unit_id">ca-app-pub-3626367913380062~9860739926</string>
+    <string name="admob_banner_unit_id">ca-app-pub-3626367913380062/8186004054</string>
 </resources>

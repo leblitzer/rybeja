@@ -1,3 +1,8 @@
+/***************************************/
+// YBO 14/02/2020 Création
+// YBO 07/09/2023 Ajout setPublicite
+/***************************************/
+
 package rybeja.android.chess.puzzle;
 
 import android.app.Activity;
@@ -24,6 +29,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.ViewSwitcher;
 
+import androidx.annotation.NonNull;
+
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 import java.io.InputStream;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -36,9 +46,6 @@ import rybeja.chess.Move;
 import rybeja.chess.board.BoardConstants;
 import rybeja.chess.board.BoardMembers;
 
-/**
- * YBO : 14/02/2020 : Création
- */
 public class ChessViewMixed extends UI {
     private ChessViewBase _view;
     private TextView _tvPracticeMove, _tvPracticeTime, _tvPracticeAvgTime;
@@ -165,6 +172,8 @@ public class ChessViewMixed extends UI {
         _tvPracticeAvgTime = (TextView) _parent.findViewById(R.id.TextViewPracticeAvgTime);
 
         _viewBoard = (View) _parent.findViewById(R.id.includeboard);
+
+        setPublicite(_viewBoard); // YBO 07/09/2023
 
         _switchTurn = (ViewSwitcher) _parent.findViewById(R.id.ImageTurn);
 
@@ -365,7 +374,8 @@ public class ChessViewMixed extends UI {
         _playTicks = 0;
 
         _cursor.moveToPosition(_iPos - 1);
-        sPGN = _cursor.getString(_cursor.getColumnIndex(MyPuzzleProvider.COL_PGN));
+        int columnIndex = _cursor.getColumnIndex(MyPuzzleProvider.COL_PGN);
+        sPGN = _cursor.getString(columnIndex);
 
         Log.i("ChessViewPractice", "init: " + sPGN);
 
@@ -743,6 +753,19 @@ private void processPGN(String s) {
         jumptoMove(_jni.getNumBoard());
         updateState();
     }
-    /*********************************************************************************************/
-
+    /***************************************/
+    // YBO 07/09/2023
+    private void setPublicite(@NonNull View view) {
+        //AdView adView = view.findViewById(R.id.adView); // assurez-vous que l'ID correspond à celui de votre AdView dans le fichier XML
+        AdView adView = _parent.findViewById(R.id.adView); // assurez-vous que l'ID correspond à celui de votre AdView dans le fichier XML
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest); // Ceci charge une annonce dans votre AdView
+        if(adView != null){
+            Log.i("ChessViewMixed", "setPublicite : " + adView);
+        }
+        else{
+            Log.i("ChessViewMixed", "setPublicite : null" );
+        }
+    }
+    /***************************************/
 }

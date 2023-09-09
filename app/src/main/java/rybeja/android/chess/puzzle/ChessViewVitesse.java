@@ -344,7 +344,8 @@ public class ChessViewVitesse extends UI {
         _playTicks = 0;
 
         _cursor.moveToPosition(_iPos - 1);
-        sPGN = _cursor.getString(_cursor.getColumnIndex(MyPuzzleProvider.COL_PGN));
+        int columnIndex = _cursor.getColumnIndex(MyPuzzleProvider.COL_PGN);
+        sPGN = _cursor.getString(columnIndex);
 
         Log.i("ChessViewPractice", "init: " + sPGN);
 

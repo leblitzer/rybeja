@@ -12,6 +12,13 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.MobileAds;
+
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 
 import java.util.Locale;
 
@@ -66,7 +73,7 @@ public class start extends Activity {
                 getBaseContext().getResources().getDisplayMetrics());
 
         setContentView(R.layout.start);
-
+        setPublicite(); // YBO 31/07/2023
         if (getIntent().getBooleanExtra("RESTART", false)) {
             finish();
             Intent intent = new Intent(this, start.class);
@@ -208,4 +215,14 @@ public class start extends Activity {
     public static String get_ssActivity(){
         return _ssActivity;
     }
+    /*************************************/
+    // YBO 31/07/2023
+    private void setPublicite() {
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
+        });
+    }
+    /*************************************/
 }

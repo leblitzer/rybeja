@@ -1,3 +1,9 @@
+/***************************************/
+// YBO 23/01/2020 No flip et elo
+// YBO 24/01/2020 On cache le bouton next et show
+// YBO 27/01/2020 Sauvegarde elo tick et pos à chaque changement de problème
+/***************************************/
+
 package rybeja.android.chess.puzzle;
 
 import rybeja.android.chess.*;
@@ -32,11 +38,11 @@ import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.widget.*;
 
-/**
- * YBO : 23/01/2020 : No flip et elo
- * YBO : 24/01/2020 : On cache le bouton next et show
- * YBO : 27/01/2020 : Sauvegarde elo tick et pos à chaque changement de problème
- */
+import androidx.annotation.NonNull;
+
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class ChessViewPractice extends UI {
     private ChessViewBase _view;
     private TextView _tvPracticeMove, _tvPracticeTime, _tvPracticeAvgTime;
@@ -294,7 +300,8 @@ public class ChessViewPractice extends UI {
         _playTicks = 0;
 
         _cursor.moveToPosition(_iPos - 1);
-        sPGN = _cursor.getString(_cursor.getColumnIndex(MyPuzzleProvider.COL_PGN));
+        int columnIndex = _cursor.getColumnIndex(MyPuzzleProvider.COL_PGN);
+        sPGN = _cursor.getString(columnIndex);
 
         Log.i("ChessViewPractice", "init: " + sPGN);
 
@@ -525,4 +532,5 @@ public class ChessViewPractice extends UI {
             }
         }, 1000, 1000);
     }
+
 }
