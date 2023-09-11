@@ -22916,11 +22916,11 @@ Rfxf1# (2... Rexf1#) *
 [Black "White to move"]
 [Result "*"]
 [SetUp "1"]
-[FEN "8/Nk6/1P2K3/8/8/8/BR6/8 w - - 0 1"]
+[FEN "8/Nk6/1PN1K3/8/8/8/BR6/8 w - - 0 1"]
 [PlyCount "1"]
 [EventDate "1994.??.??"]
 
-1. Nc6 *
+1. Bc4 *
 
 [Event "#1941 Chess: 5334 Problems, Combination"]
 [Site "Copyright 1994 Könemann"]
@@ -22944,7 +22944,7 @@ Rfxf1# (2... Rexf1#) *
 [Black "White to move, En 2 sans 0-0-0"]
 [Result "*"]
 [SetUp "1"]
-[FEN "r3k1K1/1RR3p1/7p/8/8/8/8/8 w q - 0 1"]
+[FEN "r3k1K1/1RR3p1/7p/8/8/8/8/8 w - - 0 1"]
 [PlyCount "1"]
 [EventDate "1994.??.??"]
 

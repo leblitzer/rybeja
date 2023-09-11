@@ -4,12 +4,14 @@
 <!-- YBO : 13/02/2022 : 162 : fic04 [Event "1459 52634"] Ajout de Nxg3 -->
 <!-- YBO : 20/02/2022 : 163 : ajout du reset -->
 <!-- YBO : 22/02/2022 : 164 : ajout du delete dans OnResumePuzzle  -->
+<!-- YBO : 10/09/2023 : 165 : Ajout pub -->
+<!-- YBO : 11/09/2023 : 166 : correction puzzle -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="rybeja.android.chess"
     android:installLocation="auto"
-    android:versionCode="164"
-    android:versionName="8.9.10">
+    android:versionCode="166"
+    android:versionName="8.9.12">
 
     <supports-screens
         android:anyDensity="true"

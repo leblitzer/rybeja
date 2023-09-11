@@ -51109,10 +51109,10 @@
 [Black "?"]
 [Result "0-1"]
 [SetUp "1"]
-[FEN "2r1k3/4np2/8/p1qpNp1p/1pP4P/8/PP6/1K1QR3 b - - 0 1"]
+[FEN "2r1k3/4np2/8/p1qpNp1p/1pP4P/8/PP6/1K1QR3 b - c3 0 1"]
 [PlyCount "0"]
 
-{Error reading move: c4c3}  0-1
+1... bxc3 2.Qa4+ Nc6 3.Nd3+ 0-1
 
 [Event "1488 26593"]
 [Site "?"]
