@@ -10,8 +10,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="rybeja.android.chess"
     android:installLocation="auto"
-    android:versionCode="166"
-    android:versionName="8.9.12">
+    android:versionCode="168"
+    android:versionName="8.9.14">
 
     <supports-screens
         android:anyDensity="true"
